@@ -1,0 +1,44 @@
+@import './reset.css';
+@import './common.css';
+
+.header {
+    display: flex;
+
+}
+
+.header .group-header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    min-width: 960px;
+    top: 0;
+    transform: translateX(-50%);
+    background: transparent;
+    height: auto;
+    padding: 0 5px;
+}
+
+.header .logo {
+    position: absolute;
+}
+
+.header .header-util {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 22px;
+}
+
+.header .header-util .util {
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+}
+
+.header .logo img {
+    width: 89px;
+    height: 29px;
+}
