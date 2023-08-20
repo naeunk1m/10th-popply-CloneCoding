@@ -6,10 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
-    <link rel="shortcut icon" type="image/x-icon" href="./assets/image/favicon.ico">
+    <link rel="stylesheet" href="./assets/css/slick/slick.css" />
+    <link rel="stylesheet" href="./assets/css/slick/slick-theme.css" />
+    
     <link rel="stylesheet" href="./assets/css/layout.css">
     <link rel="stylesheet" href="./assets/css/main.css">
+
+
+
 
 
 
@@ -80,45 +84,44 @@
         <section class="sc-slide">
             <div class="group-slide">
                 <div class="slick-slider">
-                    <div class="slide-prev"></div>
-                    <div class="slick-list">
-                        <div class="slick-track">
-                            <div class="slick-slide slick-cloned">
-                                <div>
-                                    <div class="popupbanner-list">
-                                        <div class="slide-content">
-                                            <div class="slide-img">
-                                                <img src="" alt="">
-                                            </div>
-                                            <div class="slide-text">
-                                                <p class="slide-title"></p>
-                                                <p class="slide-date"></p>
-                                                <p class="slide-loc">
-                                                    <img src="" alt="">
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                    <div class="slide-content">
+                        <div class="slide-img">
+                            <img src="./assets/images/76f08cf1,3db3,4bda,bb9f,6da9c534729f.jpeg" alt="">
+                        </div>
+                        <div class="slide-text">
+                            <p class="slide-title">뉴진스 X 라인프렌즈 버니니 팝업 홍대</p>
+                            <p class="slide-date">23.08.11-08.31</p>
+                            <p class="slide-loc">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22">
+                                    <defs>
+                                      <style>
+                                        .cls-1 {
+                                          fill: #fff;
+                                        }
+                                      </style>
+                                    </defs>
+                                    <path id="패스_263" data-name="패스 263" class="cls-1" d="M157.589,461.432l6.38,6.568,6.394-6.605a9.022,9.022,0,1,0-12.774.037m7.742-7.768a1.894,1.894,0,1,1-2.674,0,1.894,1.894,0,0,1,2.674,0" transform="translate(-154.969 -446)"/>
+                                </svg>
+                                서울 마포구
+                            </p>
                         </div>
                     </div>
-                    <div class="slide-next"></div>
-                    <ul class="popupbanner-pagenation">
-                        <li class="slick-active">
-                            <button>1</button>
-                        </li>
-                    </ul>
                 </div>
             </div>
         </section>
         <section class="sc-main">
             <div class="calendar-area">
-                <ul>
+                <ul class="date-list">
+                    <li>
+                        <div class="calendar active">
+                            <span>TODAY</span>
+                            <p>19</p>
+                        </div>
+                    </li>
                     <li>
                         <div class="calendar">
-                            <span></span>
-                            <p></p>
+                            <span>SUN</span>
+                            <p>20</p>
                         </div>
                     </li>
                 </ul>
@@ -135,11 +138,30 @@
                             </div>
                             <div class="text-box">
                                 <div class="popup-name">
-                                    <p></p>
+                                    <p>다이노탱 팝업스토어</p>
                                 </div>
                                 <div class="popup-location">
-                                    <a href=""><img src="" alt=""></a>
+                                    <a href="">
+                                        <p>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22">
+                                            <defs>
+                                              <style>
+                                                .cls-1 {
+                                                  fill: #fff;
+                                                }
+                                              </style>
+                                            </defs>
+                                            <path id="패스_263" data-name="패스 263" class="cls-1" d="M157.589,461.432l6.38,6.568,6.394-6.605a9.022,9.022,0,1,0-12.774.037m7.742-7.768a1.894,1.894,0,1,1-2.674,0,1.894,1.894,0,0,1,2.674,0" transform="translate(-154.969 -446)"/>
+                                            </svg>
+                                            undefined undefined
+                                        </p>
+                                    </a>
                                 </div>
+                            </div>
+                            <div class="popup-date-">
+                                <p>
+                                    23.08.08 - 23.08.20
+                                </p>
                             </div>
                         </div>
                     </li>
@@ -202,6 +224,7 @@
 
 
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="./assets/js/slick.min.js"></script>
     <script src="./assets/js/script.js"></script>
 </body>
 

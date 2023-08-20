@@ -1,3 +1,162 @@
 .container {
     padding-bottom: 100px;
 }
+
+.sc-slide {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-bottom: -100px;
+}
+
+.group-slide {
+    position: relative;
+}
+
+.slick-slider {
+    margin: 0 auto;
+}
+
+.sc-main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+    overflow: hidden;
+}
+
+.calendar-area {
+    width: 100%;
+    height: auto;  
+    padding: 0 29px;
+    overflow: hidden;   
+    padding-bottom: 40px;
+    border-bottom: 1px solid #212121;
+}
+
+.calendar-area .date-list {
+    display: flex;
+    flex-direction: row;
+    column-gap: 2.5%;
+    align-items: center;
+    justify-content: flex-start;
+    overflow-x: scroll;
+}
+
+.calendar-area .date-list .calendar.active {
+    width: 60px;
+    height: 60px;
+    background: #f0002e;
+}
+
+.calendar-area .date-list .calendar {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2e2e2e;
+    cursor: pointer;
+}
+
+.date-list .calendar.active span {
+    display: block;
+    font-weight: 600;
+    color: #fff;
+    font-size: 12px;
+}
+
+.date-list .calendar span {
+    font-size: 12px;
+    display: none;
+}
+
+.date-list .calendar p {
+    font-size: 16px;
+    line-height: 1;
+    font-weight: 600;
+    color: #fff;
+}
+
+.popup-area .btn-allview {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 15px 20px 10px;
+}
+
+.popup-area .btn-allview a {
+    display: block;
+    font-size: 14px;
+    color: #767676;
+    padding: 5px;
+}
+
+.popup-area .popup-item {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.popup-area .popup-item  .popup-list {
+    padding: 30px 0;
+    border-bottom: 1px solid #2c2c2c;
+}
+
+.popup-item .popup-wrap {
+    display: grid;
+    grid-template-columns: 0.7fr 1fr 0.2fr;
+    grid-template-rows: 1fr 0.3fr;
+    column-gap: 10px;
+    padding: 0 20px;
+}
+
+.popup-item .popup-wrap .img-box {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.popup-item .popup-wrap .img-box img {
+    border-radius: 8px;
+    border: 1px solid #212121;
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+}
+
+.popup-wrap .text-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.text-box .popup-name {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.text-box .popup-location {
+    font-size: 12px;
+    opacity: 0.6;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3px;
+}
+
+
+.popup-wrap .popup-date {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    text-align: right;
+    word-break: keep-all;
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 20px;
+}
