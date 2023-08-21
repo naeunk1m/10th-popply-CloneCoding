@@ -3,8 +3,8 @@
 
 .header {
     padding: 10px 20px;
-    background-color: #333;
-    /* background-color: transparent; */
+    /* background-color: #333; */
+    background-color: transparent;
     position: fixed;
     width: 960px;
     margin: 0 auto;
@@ -13,12 +13,17 @@
     z-index: 100;
 }
 
+.header.sticky {
+    backdrop-filter: blur(5px);
+}
+
 .group-header {
     display: flex;
     align-items: center;
 }
 
 .logo {
+    font-size: 26px;
     padding: 0;
     margin: 0;
 }
@@ -27,13 +32,18 @@
     text-decoration: none;
 }
 
+.logo img {
+    width: 89px;
+    height: 29px;
+}
+
 .header-util {
     display: flex;
     margin-left: auto;
+    gap: 22px;
 }
 
 .util {
-    margin-left: 10px;
     background: none;
     border: none;
     cursor: pointer;
@@ -48,7 +58,7 @@ footer {
     max-width: 960px;
     margin: 0 auto;
     background: #222;
-    padding: 20px 20px 90px;
+    padding: 20px 20px 10px;
     box-sizing: border-box;
     text-align: left;
     font-size: 0.8em;

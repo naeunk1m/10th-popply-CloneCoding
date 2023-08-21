@@ -38,7 +38,13 @@
     column-gap: 2.5%;
     align-items: center;
     justify-content: flex-start;
-    overflow-x: scroll;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.calendar-area .date-list::-webkit-scrollbar {
+    width: 0; /* Webkit 기반 브라우저 (Chrome, Safari)에 대한 스크롤바 숨김 */
 }
 
 .calendar-area .date-list .calendar.active {
@@ -124,6 +130,7 @@
 .popup-wrap .img-box {
     grid-row-start: 1;
     grid-row-end: 3;
+
 }
 
 .popup-wrap .img-box img {
@@ -223,7 +230,7 @@
 }
 
 .sc-banner {
-    background-color: yellow;
+    margin: 40px auto;
 }
 
 .sc-banner .popupbanner-wrap {

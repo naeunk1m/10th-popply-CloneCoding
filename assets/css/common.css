@@ -19,6 +19,7 @@ section {
 }
 
 h3 {
+    color: #fff;
     display: block;
     font-size: 1.5em;
     margin-block-start: 0.83em;
@@ -34,12 +35,7 @@ h3 {
     width: auto; /* 슬라이드 아이템 하나의 너비를 50%로 설정하여 2개가 한 줄에 표시되도록 함 */
     box-sizing: border-box; /* 너비에 여백과 경계선을 포함 */
     float: left; /* 슬라이드 아이템을 좌측으로 배치 */
-}
-
-
-
-.slickpopup-list {
-    width: 960px;
+    position: relative;
 }
 
 .slide-img {
@@ -57,7 +53,7 @@ h3 {
     object-fit: cover;
 }
 
-.slide-content .slide-img::after {
+.slide-item .slide-img::after {
     content: '';
     display: block;
     width: 100%;
@@ -70,16 +66,17 @@ h3 {
     background: url(../images/bgopacity.png) 0 0;
 }
 
-.slide-content .slide-text {
+.slide-item .slide-text {
     width: 100%;
     height: auto;
     position: absolute;
     left: 20px;
     bottom: 60px;
     z-index: 10;
+    color: #fff;
 }
 
-.slide-content .slide-text p {
+.slide-item .slide-text p {
     display: flex;
     flex-direction: row;    
     align-items: center;
@@ -91,13 +88,13 @@ h3 {
     color: #fff;
 }
 
-.slide-content .slide-text .slide-title {
+.slide-item .slide-text .slide-title {
     font-size: 24px;
     font-weight: 700;
 }
-.slide-content .slide-text .slide-date {}
-.slide-content .slide-text .slide-loc {}
-.slide-content .slide-text .slide-loc > svg {
+.slide-item .slide-text .slide-date {}
+.slide-item .slide-text .slide-loc {}
+.slide-item .slide-text .slide-loc > svg {
     display: block;
     width: 10px;    
 }

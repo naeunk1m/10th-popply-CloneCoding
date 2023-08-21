@@ -20,11 +20,33 @@ $(document).ready(function () {
 
 
   $(function () {
-    var calendarItem = document.querySelector('.calendar');
+    window.addEventListener('scroll', function() {
+      var header = document.querySelector('.header');
+  
+      if (window.scrollY > 0) {
+          header.classList.add('sticky');
+      } else {
+          header.classList.remove('sticky');
+      }
+  });
 
-    calendarItem.addEventListener('click', function () {
-        calendarItem.classList.add('active');
+  var calendars = document.querySelectorAll('.calendar');
+
+calendars.forEach(function(calendar) {
+    calendar.addEventListener('click', function() {
+        // Remove 'active' class from all calendars
+        calendars.forEach(function(c) {
+            c.classList.remove('active');
+        });
+
+        // Add 'active' class to the clicked calendar
+        this.classList.add('active');
     });
+});
+
+
+
+
   })
 
   $('.popup-slider').slick({
