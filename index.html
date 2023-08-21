@@ -2,929 +2,1865 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 
-    <link rel="stylesheet" href="./assets/css/slick/slick.css" />
-    <link rel="stylesheet" href="./assets/css/slick/slick-theme.css" />
-    
-    <link rel="stylesheet" href="./assets/css/layout.css">
-    <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="stylesheet" href="./assets/css/slick/slick.css" />
+  <link rel="stylesheet" href="./assets/css/slick/slick-theme.css" />
 
-
+  <link rel="stylesheet" href="./assets/css/layout.css">
+  <link rel="stylesheet" href="./assets/css/main.css">
 
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 </head>
 
 <body>
-    <div class="container">
-        <header class="header">
-            <div class="group-header">
-                <h1 class="logo">
-                    <span class="blind">popply</span>
-                    <a href=""><img src="./assets/images/logo.png" alt=""></a>
-                </h1>
-                <div class="header-util">
-                    <button class="util">
-                        <span class="blind">검색</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                            width="21.354" height="21.354" viewBox="0 0 21.354 21.354">
-                            <defs>
-                                <style>
-                                    .cls-1 {
-                                        fill: none;
-                                    }
+  <div class="container">
+    <header class="header">
+      <div class="group-header">
+        <h1 class="logo">
+          <span class="blind">popply</span>
+          <a href=""><img src="./assets/images/logo.png" alt=""></a>
+        </h1>
+        <div class="header-util">
+          <button class="util">
+            <span class="blind">검색</span>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21.354"
+              height="21.354" viewBox="0 0 21.354 21.354">
+              <defs>
+                <style>
+                  .cls-1 {
+                    fill: none;
+                  }
 
-                                    .cls-2 {
-                                        clip-path: url(#clip-path);
-                                    }
+                  .cls-2 {
+                    clip-path: url(#clip-path);
+                  }
 
-                                    .cls-3 {
-                                        fill: #fff;
-                                    }
-                                </style>
-                                <clipPath id="clip-path">
-                                    <rect id="사각형_409" data-name="사각형 409" class="cls-1" width="21.354" height="21.354"
-                                        transform="translate(0 0)" />
-                                </clipPath>
-                            </defs>
-                            <g id="그룹_636" data-name="그룹 636" class="cls-2" transform="translate(0 0)">
-                                <path id="패스_186" data-name="패스 186" class="cls-3"
-                                    d="M21.354,20.646,14.82,14.113a8.505,8.505,0,1,0-.707.707l6.533,6.534ZM1,8.484a7.484,7.484,0,1,1,7.484,7.484A7.492,7.492,0,0,1,1,8.484" />
-                            </g>
-                        </svg>
-                    </button>
-                    <button class="util">
-                        <span class="blind">메뉴</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" id="그룹_638" data-name="그룹 638" width="22" height="17"
-                            viewBox="0 0 22 17">
-                            <defs>
-                                <style>
-                                    .cls-1 {
-                                        fill: #fff;
-                                    }
-                                </style>
-                            </defs>
-                            <rect id="사각형_410" data-name="사각형 410" class="cls-1" width="22" height="1" />
-                            <rect id="사각형_411" data-name="사각형 411" class="cls-1" width="22" height="1"
-                                transform="translate(0 8)" />
-                            <rect id="사각형_412" data-name="사각형 412" class="cls-1" width="22" height="1"
-                                transform="translate(0 16)" />
-                        </svg>
-                    </button>
+                  .cls-3 {
+                    fill: #fff;
+                  }
+                </style>
+                <clipPath id="clip-path">
+                  <rect id="사각형_409" data-name="사각형 409" class="cls-1" width="21.354" height="21.354"
+                    transform="translate(0 0)" />
+                </clipPath>
+              </defs>
+              <g id="그룹_636" data-name="그룹 636" class="cls-2" transform="translate(0 0)">
+                <path id="패스_186" data-name="패스 186" class="cls-3"
+                  d="M21.354,20.646,14.82,14.113a8.505,8.505,0,1,0-.707.707l6.533,6.534ZM1,8.484a7.484,7.484,0,1,1,7.484,7.484A7.492,7.492,0,0,1,1,8.484" />
+              </g>
+            </svg>
+          </button>
+          <button class="util">
+            <span class="blind">메뉴</span>
+            <svg xmlns="http://www.w3.org/2000/svg" id="그룹_638" data-name="그룹 638" width="22" height="17"
+              viewBox="0 0 22 17">
+              <defs>
+                <style>
+                  .cls-1 {
+                    fill: #fff;
+                  }
+                </style>
+              </defs>
+              <rect id="사각형_410" data-name="사각형 410" class="cls-1" width="22" height="1" />
+              <rect id="사각형_411" data-name="사각형 411" class="cls-1" width="22" height="1" transform="translate(0 8)" />
+              <rect id="사각형_412" data-name="사각형 412" class="cls-1" width="22" height="1" transform="translate(0 16)" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+
+    <section class="sc-slide">
+      <div class="group-slide">
+        <div class="slick-slider">
+          <div class="slick-track" style="width: 1920px;">
+            <div class="slickpopup-list">
+              <div class="slide-item">
+                <div class="slide-img"><img src="./assets/images/76f08cf1,3db3,4bda,bb9f,6da9c534729f.jpeg" alt="">
                 </div>
-            </div>
-        </header>
-
-
-        <section class="sc-slide">
-            <div class="group-slide">
-                <div class="slick-slider">
-                    <div class="slide-content">
-                        <div class="slide-img">
-                            <img src="./assets/images/76f08cf1,3db3,4bda,bb9f,6da9c534729f.jpeg" alt="">
-                        </div>
-                        <div class="slide-text">
-                            <p class="slide-title">뉴진스 X 라인프렌즈 버니니 팝업 홍대</p>
-                            <p class="slide-date">23.08.11-08.31</p>
-                            <p class="slide-loc">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22">
-                                    <defs>
-                                      <style>
-                                        .cls-1 {
-                                          fill: #fff;
-                                        }
-                                      </style>
-                                    </defs>
-                                    <path id="패스_263" data-name="패스 263" class="cls-1" d="M157.589,461.432l6.38,6.568,6.394-6.605a9.022,9.022,0,1,0-12.774.037m7.742-7.768a1.894,1.894,0,1,1-2.674,0,1.894,1.894,0,0,1,2.674,0" transform="translate(-154.969 -446)"/>
-                                </svg>
-                                서울 마포구
-                            </p>
-                        </div>
-                    </div>
+                <div class="slide-text">
+                  <p class="slide-title">뉴진스 X 라인프렌즈 버니니 팝업 홍대</p>
+                  <p class="slide-date">23.08.11-08.31</p>
+                  <p class="slide-loc">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22">
+                      <defs>
+                        <style>
+                          .cls-1 {
+                            fill: #fff;
+                          }
+                        </style>
+                      </defs>
+                      <path id="패스_263" data-name="패스 263" class="cls-1"
+                        d="M157.589,461.432l6.38,6.568,6.394-6.605a9.022,9.022,0,1,0-12.774.037m7.742-7.768a1.894,1.894,0,1,1-2.674,0,1.894,1.894,0,0,1,2.674,0"
+                        transform="translate(-154.969 -446)" />
+                    </svg>
+                    서울 마포구
+                  </p>
                 </div>
-            </div>
-        </section>
-        <section class="sc-main">
-            <div class="calendar-area">
-                <ul class="date-list">
-                    <li>
-                        <div class="calendar active">
-                            <span>TODAY</span>
-                            <p>19</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="calendar">
-                            <span>SUN</span>
-                            <p>20</p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div class="popup-area">
-                <div class="btn-allview">
-                    <a href="">전체보기</a>
+              </div>
+              <div class="slide-item">
+                <div class="slide-img"><img src="./assets/images/887faeb2,7aea,4054,85b6,3a6e0b24423c.jfif" alt="">
                 </div>
-                <ul class="popup-item">
-                    <li class="popup-list">
-                        <div class="popup-wrap">
-                            <a class="img-box">
-                                <img src="./assets/images/a9b49ce7,1145,43d5,9ea6,a741aac1e3c9 (1).jfif" alt="">
-                            </a>
-                            <a class="text-box">
-                                <div class="popup-name">
-                                    <p>다이노탱 팝업스토어</p>
-                                </div>
-                                <div class="popup-location">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22">
-                                            <defs>
-                                              <style>
-                                                .cls-1 {
-                                                  fill: #fff;
-                                                }
-                                              </style>
-                                            </defs>
-                                            <path id="패스_263" data-name="패스 263" class="cls-1" d="M157.589,461.432l6.38,6.568,6.394-6.605a9.022,9.022,0,1,0-12.774.037m7.742-7.768a1.894,1.894,0,1,1-2.674,0,1.894,1.894,0,0,1,2.674,0" transform="translate(-154.969 -446)"/>
-                                            </svg>
-                                            undefined undefined
-                                </div>
-                            </a>
-                            <p>
-                                <a href="" class="bookmark">
-                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="20" viewBox="0 0 24 20">
-                                        <defs>
-                                          <style>
-                                            .cls-1 {
-                                              fill: #2c2c2c;
-                                            }
-                                      
-                                            .cls-2 {
-                                              fill: none;
-                                            }
-                                      
-                                            .cls-3 {
-                                              clip-path: url(#clip-path);
-                                            }
-                                      
-                                            .cls-4 {
-                                              clip-path: url(#clip-path-2);
-                                            }
-                                      
-                                            .cls-5 {
-                                              fill: #fff;
-                                            }
-                                          </style>
-                                          <clipPath id="clip-path">
-                                            <rect id="사각형_418" data-name="사각형 418" class="cls-1" width="24" height="20"/>
-                                          </clipPath>
-                                          <clipPath id="clip-path-2">
-                                            <rect id="사각형_402" data-name="사각형 402" class="cls-2" width="24" height="20"/>
-                                          </clipPath>
-                                        </defs>
-                                        <g id="그룹_657" data-name="그룹 657" transform="translate(-331 -415)">
-                                          <g id="그룹_655" data-name="그룹 655" class="cls-3" transform="translate(331 415)">
-                                            <path id="패스_191" data-name="패스 191" class="cls-1" d="M22.244,1.741a6.032,6.032,0,0,0-8.479,0L11.991,3.5,10.235,1.758a6.032,6.032,0,0,0-8.479,0,5.909,5.909,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406"/>
-                                          </g>
-                                          <g id="그룹_627" data-name="그룹 627" class="cls-4" transform="translate(331 415)">
-                                            <path id="패스_180" data-name="패스 180" class="cls-5" d="M18,1a4.985,4.985,0,0,1,3.535,1.451,4.906,4.906,0,0,1,.011,6.975L12,18.613,2.46,9.454a4.907,4.907,0,0,1,0-6.985,5.03,5.03,0,0,1,7.071,0L11.287,4.21l.7.7.7-.7,1.774-1.759A4.985,4.985,0,0,1,18,1m0-1a6,6,0,0,0-4.24,1.741L11.991,3.5l-1.756-1.74a6.03,6.03,0,0,0-8.479,0,5.907,5.907,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406A6,6,0,0,0,18,0"/>
-                                          </g>
-                                        </g>
-                                      </svg>
-                                </a>
-                            </p>
-                            <div class="popup-date">
-                                <p>
-                                    23.08.08 - 23.08.20
-                                </p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="popup-list">
-                        <div class="popup-wrap">
-                            <a class="img-box">
-                                <img src="./assets/images/a9b49ce7,1145,43d5,9ea6,a741aac1e3c9 (1).jfif" alt="">
-                            </a>
-                            <a class="text-box">
-                                <div class="popup-name">
-                                    <p>다이노탱 팝업스토어</p>
-                                </div>
-                                <div class="popup-location">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22">
-                                            <defs>
-                                              <style>
-                                                .cls-1 {
-                                                  fill: #fff;
-                                                }
-                                              </style>
-                                            </defs>
-                                            <path id="패스_263" data-name="패스 263" class="cls-1" d="M157.589,461.432l6.38,6.568,6.394-6.605a9.022,9.022,0,1,0-12.774.037m7.742-7.768a1.894,1.894,0,1,1-2.674,0,1.894,1.894,0,0,1,2.674,0" transform="translate(-154.969 -446)"/>
-                                            </svg>
-                                            undefined undefined
-                                </div>
-                            </a>
-                            <p>
-                                <a href="" class="bookmark">
-                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="20" viewBox="0 0 24 20">
-                                        <defs>
-                                          <style>
-                                            .cls-1 {
-                                              fill: #2c2c2c;
-                                            }
-                                      
-                                            .cls-2 {
-                                              fill: none;
-                                            }
-                                      
-                                            .cls-3 {
-                                              clip-path: url(#clip-path);
-                                            }
-                                      
-                                            .cls-4 {
-                                              clip-path: url(#clip-path-2);
-                                            }
-                                      
-                                            .cls-5 {
-                                              fill: #fff;
-                                            }
-                                          </style>
-                                          <clipPath id="clip-path">
-                                            <rect id="사각형_418" data-name="사각형 418" class="cls-1" width="24" height="20"/>
-                                          </clipPath>
-                                          <clipPath id="clip-path-2">
-                                            <rect id="사각형_402" data-name="사각형 402" class="cls-2" width="24" height="20"/>
-                                          </clipPath>
-                                        </defs>
-                                        <g id="그룹_657" data-name="그룹 657" transform="translate(-331 -415)">
-                                          <g id="그룹_655" data-name="그룹 655" class="cls-3" transform="translate(331 415)">
-                                            <path id="패스_191" data-name="패스 191" class="cls-1" d="M22.244,1.741a6.032,6.032,0,0,0-8.479,0L11.991,3.5,10.235,1.758a6.032,6.032,0,0,0-8.479,0,5.909,5.909,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406"/>
-                                          </g>
-                                          <g id="그룹_627" data-name="그룹 627" class="cls-4" transform="translate(331 415)">
-                                            <path id="패스_180" data-name="패스 180" class="cls-5" d="M18,1a4.985,4.985,0,0,1,3.535,1.451,4.906,4.906,0,0,1,.011,6.975L12,18.613,2.46,9.454a4.907,4.907,0,0,1,0-6.985,5.03,5.03,0,0,1,7.071,0L11.287,4.21l.7.7.7-.7,1.774-1.759A4.985,4.985,0,0,1,18,1m0-1a6,6,0,0,0-4.24,1.741L11.991,3.5l-1.756-1.74a6.03,6.03,0,0,0-8.479,0,5.907,5.907,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406A6,6,0,0,0,18,0"/>
-                                          </g>
-                                        </g>
-                                      </svg>
-                                </a>
-                            </p>
-                            <div class="popup-date">
-                                <p>
-                                    23.08.08 - 23.08.20
-                                </p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="popup-list">
-                        <div class="popup-wrap">
-                            <a class="img-box">
-                                <img src="./assets/images/a9b49ce7,1145,43d5,9ea6,a741aac1e3c9 (1).jfif" alt="">
-                            </a>
-                            <a class="text-box">
-                                <div class="popup-name">
-                                    <p>다이노탱 팝업스토어</p>
-                                </div>
-                                <div class="popup-location">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22">
-                                            <defs>
-                                              <style>
-                                                .cls-1 {
-                                                  fill: #fff;
-                                                }
-                                              </style>
-                                            </defs>
-                                            <path id="패스_263" data-name="패스 263" class="cls-1" d="M157.589,461.432l6.38,6.568,6.394-6.605a9.022,9.022,0,1,0-12.774.037m7.742-7.768a1.894,1.894,0,1,1-2.674,0,1.894,1.894,0,0,1,2.674,0" transform="translate(-154.969 -446)"/>
-                                            </svg>
-                                            undefined undefined
-                                </div>
-                            </a>
-                            <p>
-                                <a href="" class="bookmark">
-                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="20" viewBox="0 0 24 20">
-                                        <defs>
-                                          <style>
-                                            .cls-1 {
-                                              fill: #2c2c2c;
-                                            }
-                                      
-                                            .cls-2 {
-                                              fill: none;
-                                            }
-                                      
-                                            .cls-3 {
-                                              clip-path: url(#clip-path);
-                                            }
-                                      
-                                            .cls-4 {
-                                              clip-path: url(#clip-path-2);
-                                            }
-                                      
-                                            .cls-5 {
-                                              fill: #fff;
-                                            }
-                                          </style>
-                                          <clipPath id="clip-path">
-                                            <rect id="사각형_418" data-name="사각형 418" class="cls-1" width="24" height="20"/>
-                                          </clipPath>
-                                          <clipPath id="clip-path-2">
-                                            <rect id="사각형_402" data-name="사각형 402" class="cls-2" width="24" height="20"/>
-                                          </clipPath>
-                                        </defs>
-                                        <g id="그룹_657" data-name="그룹 657" transform="translate(-331 -415)">
-                                          <g id="그룹_655" data-name="그룹 655" class="cls-3" transform="translate(331 415)">
-                                            <path id="패스_191" data-name="패스 191" class="cls-1" d="M22.244,1.741a6.032,6.032,0,0,0-8.479,0L11.991,3.5,10.235,1.758a6.032,6.032,0,0,0-8.479,0,5.909,5.909,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406"/>
-                                          </g>
-                                          <g id="그룹_627" data-name="그룹 627" class="cls-4" transform="translate(331 415)">
-                                            <path id="패스_180" data-name="패스 180" class="cls-5" d="M18,1a4.985,4.985,0,0,1,3.535,1.451,4.906,4.906,0,0,1,.011,6.975L12,18.613,2.46,9.454a4.907,4.907,0,0,1,0-6.985,5.03,5.03,0,0,1,7.071,0L11.287,4.21l.7.7.7-.7,1.774-1.759A4.985,4.985,0,0,1,18,1m0-1a6,6,0,0,0-4.24,1.741L11.991,3.5l-1.756-1.74a6.03,6.03,0,0,0-8.479,0,5.907,5.907,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406A6,6,0,0,0,18,0"/>
-                                          </g>
-                                        </g>
-                                      </svg>
-                                </a>
-                            </p>
-                            <div class="popup-date">
-                                <p>
-                                    23.08.08 - 23.08.20
-                                </p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="popup-list">
-                        <div class="popup-wrap">
-                            <a class="img-box">
-                                <img src="./assets/images/a9b49ce7,1145,43d5,9ea6,a741aac1e3c9 (1).jfif" alt="">
-                            </a>
-                            <a class="text-box">
-                                <div class="popup-name">
-                                    <p>다이노탱 팝업스토어</p>
-                                </div>
-                                <div class="popup-location">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22">
-                                            <defs>
-                                              <style>
-                                                .cls-1 {
-                                                  fill: #fff;
-                                                }
-                                              </style>
-                                            </defs>
-                                            <path id="패스_263" data-name="패스 263" class="cls-1" d="M157.589,461.432l6.38,6.568,6.394-6.605a9.022,9.022,0,1,0-12.774.037m7.742-7.768a1.894,1.894,0,1,1-2.674,0,1.894,1.894,0,0,1,2.674,0" transform="translate(-154.969 -446)"/>
-                                            </svg>
-                                            undefined undefined
-                                </div>
-                            </a>
-                            <p>
-                                <a href="" class="bookmark">
-                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="20" viewBox="0 0 24 20">
-                                        <defs>
-                                          <style>
-                                            .cls-1 {
-                                              fill: #2c2c2c;
-                                            }
-                                      
-                                            .cls-2 {
-                                              fill: none;
-                                            }
-                                      
-                                            .cls-3 {
-                                              clip-path: url(#clip-path);
-                                            }
-                                      
-                                            .cls-4 {
-                                              clip-path: url(#clip-path-2);
-                                            }
-                                      
-                                            .cls-5 {
-                                              fill: #fff;
-                                            }
-                                          </style>
-                                          <clipPath id="clip-path">
-                                            <rect id="사각형_418" data-name="사각형 418" class="cls-1" width="24" height="20"/>
-                                          </clipPath>
-                                          <clipPath id="clip-path-2">
-                                            <rect id="사각형_402" data-name="사각형 402" class="cls-2" width="24" height="20"/>
-                                          </clipPath>
-                                        </defs>
-                                        <g id="그룹_657" data-name="그룹 657" transform="translate(-331 -415)">
-                                          <g id="그룹_655" data-name="그룹 655" class="cls-3" transform="translate(331 415)">
-                                            <path id="패스_191" data-name="패스 191" class="cls-1" d="M22.244,1.741a6.032,6.032,0,0,0-8.479,0L11.991,3.5,10.235,1.758a6.032,6.032,0,0,0-8.479,0,5.909,5.909,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406"/>
-                                          </g>
-                                          <g id="그룹_627" data-name="그룹 627" class="cls-4" transform="translate(331 415)">
-                                            <path id="패스_180" data-name="패스 180" class="cls-5" d="M18,1a4.985,4.985,0,0,1,3.535,1.451,4.906,4.906,0,0,1,.011,6.975L12,18.613,2.46,9.454a4.907,4.907,0,0,1,0-6.985,5.03,5.03,0,0,1,7.071,0L11.287,4.21l.7.7.7-.7,1.774-1.759A4.985,4.985,0,0,1,18,1m0-1a6,6,0,0,0-4.24,1.741L11.991,3.5l-1.756-1.74a6.03,6.03,0,0,0-8.479,0,5.907,5.907,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406A6,6,0,0,0,18,0"/>
-                                          </g>
-                                        </g>
-                                      </svg>
-                                </a>
-                            </p>
-                            <div class="popup-date">
-                                <p>
-                                    23.08.08 - 23.08.20
-                                </p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="popup-list">
-                        <div class="popup-wrap">
-                            <a class="img-box">
-                                <img src="./assets/images/a9b49ce7,1145,43d5,9ea6,a741aac1e3c9 (1).jfif" alt="">
-                            </a>
-                            <a class="text-box">
-                                <div class="popup-name">
-                                    <p>다이노탱 팝업스토어</p>
-                                </div>
-                                <div class="popup-location">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22">
-                                            <defs>
-                                              <style>
-                                                .cls-1 {
-                                                  fill: #fff;
-                                                }
-                                              </style>
-                                            </defs>
-                                            <path id="패스_263" data-name="패스 263" class="cls-1" d="M157.589,461.432l6.38,6.568,6.394-6.605a9.022,9.022,0,1,0-12.774.037m7.742-7.768a1.894,1.894,0,1,1-2.674,0,1.894,1.894,0,0,1,2.674,0" transform="translate(-154.969 -446)"/>
-                                            </svg>
-                                            undefined undefined
-                                </div>
-                            </a>
-                            <p>
-                                <a href="" class="bookmark">
-                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="20" viewBox="0 0 24 20">
-                                        <defs>
-                                          <style>
-                                            .cls-1 {
-                                              fill: #2c2c2c;
-                                            }
-                                      
-                                            .cls-2 {
-                                              fill: none;
-                                            }
-                                      
-                                            .cls-3 {
-                                              clip-path: url(#clip-path);
-                                            }
-                                      
-                                            .cls-4 {
-                                              clip-path: url(#clip-path-2);
-                                            }
-                                      
-                                            .cls-5 {
-                                              fill: #fff;
-                                            }
-                                          </style>
-                                          <clipPath id="clip-path">
-                                            <rect id="사각형_418" data-name="사각형 418" class="cls-1" width="24" height="20"/>
-                                          </clipPath>
-                                          <clipPath id="clip-path-2">
-                                            <rect id="사각형_402" data-name="사각형 402" class="cls-2" width="24" height="20"/>
-                                          </clipPath>
-                                        </defs>
-                                        <g id="그룹_657" data-name="그룹 657" transform="translate(-331 -415)">
-                                          <g id="그룹_655" data-name="그룹 655" class="cls-3" transform="translate(331 415)">
-                                            <path id="패스_191" data-name="패스 191" class="cls-1" d="M22.244,1.741a6.032,6.032,0,0,0-8.479,0L11.991,3.5,10.235,1.758a6.032,6.032,0,0,0-8.479,0,5.909,5.909,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406"/>
-                                          </g>
-                                          <g id="그룹_627" data-name="그룹 627" class="cls-4" transform="translate(331 415)">
-                                            <path id="패스_180" data-name="패스 180" class="cls-5" d="M18,1a4.985,4.985,0,0,1,3.535,1.451,4.906,4.906,0,0,1,.011,6.975L12,18.613,2.46,9.454a4.907,4.907,0,0,1,0-6.985,5.03,5.03,0,0,1,7.071,0L11.287,4.21l.7.7.7-.7,1.774-1.759A4.985,4.985,0,0,1,18,1m0-1a6,6,0,0,0-4.24,1.741L11.991,3.5l-1.756-1.74a6.03,6.03,0,0,0-8.479,0,5.907,5.907,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406A6,6,0,0,0,18,0"/>
-                                          </g>
-                                        </g>
-                                      </svg>
-                                </a>
-                            </p>
-                            <div class="popup-date">
-                                <p>
-                                    23.08.08 - 23.08.20
-                                </p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="popup-list">
-                        <div class="popup-wrap">
-                            <a class="img-box">
-                                <img src="./assets/images/a9b49ce7,1145,43d5,9ea6,a741aac1e3c9 (1).jfif" alt="">
-                            </a>
-                            <a class="text-box">
-                                <div class="popup-name">
-                                    <p>다이노탱 팝업스토어</p>
-                                </div>
-                                <div class="popup-location">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22">
-                                            <defs>
-                                              <style>
-                                                .cls-1 {
-                                                  fill: #fff;
-                                                }
-                                              </style>
-                                            </defs>
-                                            <path id="패스_263" data-name="패스 263" class="cls-1" d="M157.589,461.432l6.38,6.568,6.394-6.605a9.022,9.022,0,1,0-12.774.037m7.742-7.768a1.894,1.894,0,1,1-2.674,0,1.894,1.894,0,0,1,2.674,0" transform="translate(-154.969 -446)"/>
-                                            </svg>
-                                            undefined undefined
-                                </div>
-                            </a>
-                            <p>
-                                <a href="" class="bookmark">
-                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="20" viewBox="0 0 24 20">
-                                        <defs>
-                                          <style>
-                                            .cls-1 {
-                                              fill: #2c2c2c;
-                                            }
-                                      
-                                            .cls-2 {
-                                              fill: none;
-                                            }
-                                      
-                                            .cls-3 {
-                                              clip-path: url(#clip-path);
-                                            }
-                                      
-                                            .cls-4 {
-                                              clip-path: url(#clip-path-2);
-                                            }
-                                      
-                                            .cls-5 {
-                                              fill: #fff;
-                                            }
-                                          </style>
-                                          <clipPath id="clip-path">
-                                            <rect id="사각형_418" data-name="사각형 418" class="cls-1" width="24" height="20"/>
-                                          </clipPath>
-                                          <clipPath id="clip-path-2">
-                                            <rect id="사각형_402" data-name="사각형 402" class="cls-2" width="24" height="20"/>
-                                          </clipPath>
-                                        </defs>
-                                        <g id="그룹_657" data-name="그룹 657" transform="translate(-331 -415)">
-                                          <g id="그룹_655" data-name="그룹 655" class="cls-3" transform="translate(331 415)">
-                                            <path id="패스_191" data-name="패스 191" class="cls-1" d="M22.244,1.741a6.032,6.032,0,0,0-8.479,0L11.991,3.5,10.235,1.758a6.032,6.032,0,0,0-8.479,0,5.909,5.909,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406"/>
-                                          </g>
-                                          <g id="그룹_627" data-name="그룹 627" class="cls-4" transform="translate(331 415)">
-                                            <path id="패스_180" data-name="패스 180" class="cls-5" d="M18,1a4.985,4.985,0,0,1,3.535,1.451,4.906,4.906,0,0,1,.011,6.975L12,18.613,2.46,9.454a4.907,4.907,0,0,1,0-6.985,5.03,5.03,0,0,1,7.071,0L11.287,4.21l.7.7.7-.7,1.774-1.759A4.985,4.985,0,0,1,18,1m0-1a6,6,0,0,0-4.24,1.741L11.991,3.5l-1.756-1.74a6.03,6.03,0,0,0-8.479,0,5.907,5.907,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406A6,6,0,0,0,18,0"/>
-                                          </g>
-                                        </g>
-                                      </svg>
-                                </a>
-                            </p>
-                            <div class="popup-date">
-                                <p>
-                                    23.08.08 - 23.08.20
-                                </p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="popup-list">
-                        <div class="popup-wrap">
-                            <a class="img-box">
-                                <img src="./assets/images/a9b49ce7,1145,43d5,9ea6,a741aac1e3c9 (1).jfif" alt="">
-                            </a>
-                            <a class="text-box">
-                                <div class="popup-name">
-                                    <p>다이노탱 팝업스토어</p>
-                                </div>
-                                <div class="popup-location">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22">
-                                            <defs>
-                                              <style>
-                                                .cls-1 {
-                                                  fill: #fff;
-                                                }
-                                              </style>
-                                            </defs>
-                                            <path id="패스_263" data-name="패스 263" class="cls-1" d="M157.589,461.432l6.38,6.568,6.394-6.605a9.022,9.022,0,1,0-12.774.037m7.742-7.768a1.894,1.894,0,1,1-2.674,0,1.894,1.894,0,0,1,2.674,0" transform="translate(-154.969 -446)"/>
-                                            </svg>
-                                            undefined undefined
-                                </div>
-                            </a>
-                            <p>
-                                <a href="" class="bookmark">
-                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="20" viewBox="0 0 24 20">
-                                        <defs>
-                                          <style>
-                                            .cls-1 {
-                                              fill: #2c2c2c;
-                                            }
-                                      
-                                            .cls-2 {
-                                              fill: none;
-                                            }
-                                      
-                                            .cls-3 {
-                                              clip-path: url(#clip-path);
-                                            }
-                                      
-                                            .cls-4 {
-                                              clip-path: url(#clip-path-2);
-                                            }
-                                      
-                                            .cls-5 {
-                                              fill: #fff;
-                                            }
-                                          </style>
-                                          <clipPath id="clip-path">
-                                            <rect id="사각형_418" data-name="사각형 418" class="cls-1" width="24" height="20"/>
-                                          </clipPath>
-                                          <clipPath id="clip-path-2">
-                                            <rect id="사각형_402" data-name="사각형 402" class="cls-2" width="24" height="20"/>
-                                          </clipPath>
-                                        </defs>
-                                        <g id="그룹_657" data-name="그룹 657" transform="translate(-331 -415)">
-                                          <g id="그룹_655" data-name="그룹 655" class="cls-3" transform="translate(331 415)">
-                                            <path id="패스_191" data-name="패스 191" class="cls-1" d="M22.244,1.741a6.032,6.032,0,0,0-8.479,0L11.991,3.5,10.235,1.758a6.032,6.032,0,0,0-8.479,0,5.909,5.909,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406"/>
-                                          </g>
-                                          <g id="그룹_627" data-name="그룹 627" class="cls-4" transform="translate(331 415)">
-                                            <path id="패스_180" data-name="패스 180" class="cls-5" d="M18,1a4.985,4.985,0,0,1,3.535,1.451,4.906,4.906,0,0,1,.011,6.975L12,18.613,2.46,9.454a4.907,4.907,0,0,1,0-6.985,5.03,5.03,0,0,1,7.071,0L11.287,4.21l.7.7.7-.7,1.774-1.759A4.985,4.985,0,0,1,18,1m0-1a6,6,0,0,0-4.24,1.741L11.991,3.5l-1.756-1.74a6.03,6.03,0,0,0-8.479,0,5.907,5.907,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406A6,6,0,0,0,18,0"/>
-                                          </g>
-                                        </g>
-                                      </svg>
-                                </a>
-                            </p>
-                            <div class="popup-date">
-                                <p>
-                                    23.08.08 - 23.08.20
-                                </p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="popup-list">
-                        <div class="popup-wrap">
-                            <a class="img-box">
-                                <img src="./assets/images/a9b49ce7,1145,43d5,9ea6,a741aac1e3c9 (1).jfif" alt="">
-                            </a>
-                            <a class="text-box">
-                                <div class="popup-name">
-                                    <p>다이노탱 팝업스토어</p>
-                                </div>
-                                <div class="popup-location">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22">
-                                            <defs>
-                                              <style>
-                                                .cls-1 {
-                                                  fill: #fff;
-                                                }
-                                              </style>
-                                            </defs>
-                                            <path id="패스_263" data-name="패스 263" class="cls-1" d="M157.589,461.432l6.38,6.568,6.394-6.605a9.022,9.022,0,1,0-12.774.037m7.742-7.768a1.894,1.894,0,1,1-2.674,0,1.894,1.894,0,0,1,2.674,0" transform="translate(-154.969 -446)"/>
-                                            </svg>
-                                            undefined undefined
-                                </div>
-                            </a>
-                            <p>
-                                <a href="" class="bookmark">
-                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="20" viewBox="0 0 24 20">
-                                        <defs>
-                                          <style>
-                                            .cls-1 {
-                                              fill: #2c2c2c;
-                                            }
-                                      
-                                            .cls-2 {
-                                              fill: none;
-                                            }
-                                      
-                                            .cls-3 {
-                                              clip-path: url(#clip-path);
-                                            }
-                                      
-                                            .cls-4 {
-                                              clip-path: url(#clip-path-2);
-                                            }
-                                      
-                                            .cls-5 {
-                                              fill: #fff;
-                                            }
-                                          </style>
-                                          <clipPath id="clip-path">
-                                            <rect id="사각형_418" data-name="사각형 418" class="cls-1" width="24" height="20"/>
-                                          </clipPath>
-                                          <clipPath id="clip-path-2">
-                                            <rect id="사각형_402" data-name="사각형 402" class="cls-2" width="24" height="20"/>
-                                          </clipPath>
-                                        </defs>
-                                        <g id="그룹_657" data-name="그룹 657" transform="translate(-331 -415)">
-                                          <g id="그룹_655" data-name="그룹 655" class="cls-3" transform="translate(331 415)">
-                                            <path id="패스_191" data-name="패스 191" class="cls-1" d="M22.244,1.741a6.032,6.032,0,0,0-8.479,0L11.991,3.5,10.235,1.758a6.032,6.032,0,0,0-8.479,0,5.909,5.909,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406"/>
-                                          </g>
-                                          <g id="그룹_627" data-name="그룹 627" class="cls-4" transform="translate(331 415)">
-                                            <path id="패스_180" data-name="패스 180" class="cls-5" d="M18,1a4.985,4.985,0,0,1,3.535,1.451,4.906,4.906,0,0,1,.011,6.975L12,18.613,2.46,9.454a4.907,4.907,0,0,1,0-6.985,5.03,5.03,0,0,1,7.071,0L11.287,4.21l.7.7.7-.7,1.774-1.759A4.985,4.985,0,0,1,18,1m0-1a6,6,0,0,0-4.24,1.741L11.991,3.5l-1.756-1.74a6.03,6.03,0,0,0-8.479,0,5.907,5.907,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406A6,6,0,0,0,18,0"/>
-                                          </g>
-                                        </g>
-                                      </svg>
-                                </a>
-                            </p>
-                            <div class="popup-date">
-                                <p>
-                                    23.08.08 - 23.08.20
-                                </p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="popup-list">
-                        <div class="popup-wrap">
-                            <a class="img-box">
-                                <img src="./assets/images/a9b49ce7,1145,43d5,9ea6,a741aac1e3c9 (1).jfif" alt="">
-                            </a>
-                            <a class="text-box">
-                                <div class="popup-name">
-                                    <p>다이노탱 팝업스토어</p>
-                                </div>
-                                <div class="popup-location">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22">
-                                            <defs>
-                                              <style>
-                                                .cls-1 {
-                                                  fill: #fff;
-                                                }
-                                              </style>
-                                            </defs>
-                                            <path id="패스_263" data-name="패스 263" class="cls-1" d="M157.589,461.432l6.38,6.568,6.394-6.605a9.022,9.022,0,1,0-12.774.037m7.742-7.768a1.894,1.894,0,1,1-2.674,0,1.894,1.894,0,0,1,2.674,0" transform="translate(-154.969 -446)"/>
-                                            </svg>
-                                            undefined undefined
-                                </div>
-                            </a>
-                            <p>
-                                <a href="" class="bookmark">
-                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="20" viewBox="0 0 24 20">
-                                        <defs>
-                                          <style>
-                                            .cls-1 {
-                                              fill: #2c2c2c;
-                                            }
-                                      
-                                            .cls-2 {
-                                              fill: none;
-                                            }
-                                      
-                                            .cls-3 {
-                                              clip-path: url(#clip-path);
-                                            }
-                                      
-                                            .cls-4 {
-                                              clip-path: url(#clip-path-2);
-                                            }
-                                      
-                                            .cls-5 {
-                                              fill: #fff;
-                                            }
-                                          </style>
-                                          <clipPath id="clip-path">
-                                            <rect id="사각형_418" data-name="사각형 418" class="cls-1" width="24" height="20"/>
-                                          </clipPath>
-                                          <clipPath id="clip-path-2">
-                                            <rect id="사각형_402" data-name="사각형 402" class="cls-2" width="24" height="20"/>
-                                          </clipPath>
-                                        </defs>
-                                        <g id="그룹_657" data-name="그룹 657" transform="translate(-331 -415)">
-                                          <g id="그룹_655" data-name="그룹 655" class="cls-3" transform="translate(331 415)">
-                                            <path id="패스_191" data-name="패스 191" class="cls-1" d="M22.244,1.741a6.032,6.032,0,0,0-8.479,0L11.991,3.5,10.235,1.758a6.032,6.032,0,0,0-8.479,0,5.909,5.909,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406"/>
-                                          </g>
-                                          <g id="그룹_627" data-name="그룹 627" class="cls-4" transform="translate(331 415)">
-                                            <path id="패스_180" data-name="패스 180" class="cls-5" d="M18,1a4.985,4.985,0,0,1,3.535,1.451,4.906,4.906,0,0,1,.011,6.975L12,18.613,2.46,9.454a4.907,4.907,0,0,1,0-6.985,5.03,5.03,0,0,1,7.071,0L11.287,4.21l.7.7.7-.7,1.774-1.759A4.985,4.985,0,0,1,18,1m0-1a6,6,0,0,0-4.24,1.741L11.991,3.5l-1.756-1.74a6.03,6.03,0,0,0-8.479,0,5.907,5.907,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406A6,6,0,0,0,18,0"/>
-                                          </g>
-                                        </g>
-                                      </svg>
-                                </a>
-                            </p>
-                            <div class="popup-date">
-                                <p>
-                                    23.08.08 - 23.08.20
-                                </p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="popup-list">
-                        <div class="popup-wrap">
-                            <a class="img-box">
-                                <img src="./assets/images/a9b49ce7,1145,43d5,9ea6,a741aac1e3c9 (1).jfif" alt="">
-                            </a>
-                            <a class="text-box">
-                                <div class="popup-name">
-                                    <p>다이노탱 팝업스토어</p>
-                                </div>
-                                <div class="popup-location">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22">
-                                            <defs>
-                                              <style>
-                                                .cls-1 {
-                                                  fill: #fff;
-                                                }
-                                              </style>
-                                            </defs>
-                                            <path id="패스_263" data-name="패스 263" class="cls-1" d="M157.589,461.432l6.38,6.568,6.394-6.605a9.022,9.022,0,1,0-12.774.037m7.742-7.768a1.894,1.894,0,1,1-2.674,0,1.894,1.894,0,0,1,2.674,0" transform="translate(-154.969 -446)"/>
-                                            </svg>
-                                            undefined undefined
-                                </div>
-                            </a>
-                            <p>
-                                <a href="" class="bookmark">
-                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="20" viewBox="0 0 24 20">
-                                        <defs>
-                                          <style>
-                                            .cls-1 {
-                                              fill: #2c2c2c;
-                                            }
-                                      
-                                            .cls-2 {
-                                              fill: none;
-                                            }
-                                      
-                                            .cls-3 {
-                                              clip-path: url(#clip-path);
-                                            }
-                                      
-                                            .cls-4 {
-                                              clip-path: url(#clip-path-2);
-                                            }
-                                      
-                                            .cls-5 {
-                                              fill: #fff;
-                                            }
-                                          </style>
-                                          <clipPath id="clip-path">
-                                            <rect id="사각형_418" data-name="사각형 418" class="cls-1" width="24" height="20"/>
-                                          </clipPath>
-                                          <clipPath id="clip-path-2">
-                                            <rect id="사각형_402" data-name="사각형 402" class="cls-2" width="24" height="20"/>
-                                          </clipPath>
-                                        </defs>
-                                        <g id="그룹_657" data-name="그룹 657" transform="translate(-331 -415)">
-                                          <g id="그룹_655" data-name="그룹 655" class="cls-3" transform="translate(331 415)">
-                                            <path id="패스_191" data-name="패스 191" class="cls-1" d="M22.244,1.741a6.032,6.032,0,0,0-8.479,0L11.991,3.5,10.235,1.758a6.032,6.032,0,0,0-8.479,0,5.909,5.909,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406"/>
-                                          </g>
-                                          <g id="그룹_627" data-name="그룹 627" class="cls-4" transform="translate(331 415)">
-                                            <path id="패스_180" data-name="패스 180" class="cls-5" d="M18,1a4.985,4.985,0,0,1,3.535,1.451,4.906,4.906,0,0,1,.011,6.975L12,18.613,2.46,9.454a4.907,4.907,0,0,1,0-6.985,5.03,5.03,0,0,1,7.071,0L11.287,4.21l.7.7.7-.7,1.774-1.759A4.985,4.985,0,0,1,18,1m0-1a6,6,0,0,0-4.24,1.741L11.991,3.5l-1.756-1.74a6.03,6.03,0,0,0-8.479,0,5.907,5.907,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406A6,6,0,0,0,18,0"/>
-                                          </g>
-                                        </g>
-                                      </svg>
-                                </a>
-                            </p>
-                            <div class="popup-date">
-                                <p>
-                                    23.08.08 - 23.08.20
-                                </p>
-                            </div>
-                        </div>
-                    </li>
+                <div class="slide-text">
+                  <p class="slide-title">스폰지밥 카페</p>
+                  <p class="slide-date">23.08.05-10.03</p>
+                  <p class="slide-loc">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22">
+                      <defs>
+                        <style>
+                          .cls-1 {
+                            fill: #fff;
+                          }
+                        </style>
+                      </defs>
+                      <path id="패스_263" data-name="패스 263" class="cls-1"
+                        d="M157.589,461.432l6.38,6.568,6.394-6.605a9.022,9.022,0,1,0-12.774.037m7.742-7.768a1.894,1.894,0,1,1-2.674,0,1.894,1.894,0,0,1,2.674,0"
+                        transform="translate(-154.969 -446)" />
+                    </svg>
+                    서울 용산구
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sc-main">
+      <div class="calendar-area">
+        <ul class="date-list">
+          <li>
+            <div class="calendar active">
+              <span>TODAY</span>
+              <p>19</p>
+            </div>
+          </li>
+          <li>
+            <div class="calendar">
+              <span>SUN</span>
+              <p>20</p>
+            </div>
+          </li>
+          <li>
+            <div class="calendar">
+              <span>SUN</span>
+              <p>20</p>
+            </div>
+          </li>
+          <li>
+            <div class="calendar">
+              <span>SUN</span>
+              <p>20</p>
+            </div>
+          </li>
+          <li>
+            <div class="calendar">
+              <span>SUN</span>
+              <p>20</p>
+            </div>
+          </li>
+          <li>
+            <div class="calendar">
+              <span>SUN</span>
+              <p>20</p>
+            </div>
+          </li>
+          <li>
+            <div class="calendar">
+              <span>SUN</span>
+              <p>20</p>
+            </div>
+          </li>
+          <li>
+            <div class="calendar">
+              <span>SUN</span>
+              <p>20</p>
+            </div>
+          </li>
+          <li>
+            <div class="calendar">
+              <span>SUN</span>
+              <p>20</p>
+            </div>
+          </li>
+          <li>
+            <div class="calendar">
+              <span>SUN</span>
+              <p>20</p>
+            </div>
+          </li>
+          <li>
+            <div class="calendar">
+              <span>SUN</span>
+              <p>20</p>
+            </div>
+          </li>
+          <li>
+            <div class="calendar">
+              <span>SUN</span>
+              <p>20</p>
+            </div>
+          </li>
+          <li>
+            <div class="calendar">
+              <span>SUN</span>
+              <p>20</p>
+            </div>
+          </li>
+          <li>
+            <div class="calendar">
+              <span>SUN</span>
+              <p>20</p>
+            </div>
+          </li>
+          <li>
+            <div class="calendar">
+              <span>SUN</span>
+              <p>20</p>
+            </div>
+          </li>
+          <li>
+            <div class="calendar">
+              <span>SUN</span>
+              <p>20</p>
+            </div>
+          </li>
+          <li>
+            <div class="calendar">
+              <span>SUN</span>
+              <p>20</p>
+            </div>
+          </li>
+          <li>
+            <div class="calendar">
+              <span>SUN</span>
+              <p>20</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="popup-area">
+        <div class="btn-allview">
+          <a href="">전체보기</a>
+        </div>
+        <ul class="popup-item">
+          <li class="popup-list">
+            <div class="popup-wrap">
+              <a class="img-box">
+                <img src="./assets/images/a9b49ce7,1145,43d5,9ea6,a741aac1e3c9 (1).jfif" alt="">
+              </a>
+              <a class="text-box">
+                <div class="popup-name">
+                  <p>다이노탱 팝업스토어</p>
+                </div>
+                <div class="popup-location">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22">
+                    <defs>
+                      <style>
+                        .cls-1 {
+                          fill: #fff;
+                        }
+                      </style>
+                    </defs>
+                    <path id="패스_263" data-name="패스 263" class="cls-1"
+                      d="M157.589,461.432l6.38,6.568,6.394-6.605a9.022,9.022,0,1,0-12.774.037m7.742-7.768a1.894,1.894,0,1,1-2.674,0,1.894,1.894,0,0,1,2.674,0"
+                      transform="translate(-154.969 -446)" />
+                  </svg>
+                  undefined undefined
+                </div>
+              </a>
+              <p>
+                <a href="" class="bookmark">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24"
+                    height="20" viewBox="0 0 24 20">
+                    <defs>
+                      <style>
+                        .cls-1 {
+                          fill: #2c2c2c;
+                        }
 
-                </ul>
-                <a class="btn-box">
-                    더보기
+                        .cls-2 {
+                          fill: none;
+                        }
+
+                        .cls-3 {
+                          clip-path: url(#clip-path);
+                        }
+
+                        .cls-4 {
+                          clip-path: url(#clip-path-2);
+                        }
+
+                        .cls-5 {
+                          fill: #fff;
+                        }
+                      </style>
+                      <clipPath id="clip-path">
+                        <rect id="사각형_418" data-name="사각형 418" class="cls-1" width="24" height="20" />
+                      </clipPath>
+                      <clipPath id="clip-path-2">
+                        <rect id="사각형_402" data-name="사각형 402" class="cls-2" width="24" height="20" />
+                      </clipPath>
+                    </defs>
+                    <g id="그룹_657" data-name="그룹 657" transform="translate(-331 -415)">
+                      <g id="그룹_655" data-name="그룹 655" class="cls-3" transform="translate(331 415)">
+                        <path id="패스_191" data-name="패스 191" class="cls-1"
+                          d="M22.244,1.741a6.032,6.032,0,0,0-8.479,0L11.991,3.5,10.235,1.758a6.032,6.032,0,0,0-8.479,0,5.909,5.909,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406" />
+                      </g>
+                      <g id="그룹_627" data-name="그룹 627" class="cls-4" transform="translate(331 415)">
+                        <path id="패스_180" data-name="패스 180" class="cls-5"
+                          d="M18,1a4.985,4.985,0,0,1,3.535,1.451,4.906,4.906,0,0,1,.011,6.975L12,18.613,2.46,9.454a4.907,4.907,0,0,1,0-6.985,5.03,5.03,0,0,1,7.071,0L11.287,4.21l.7.7.7-.7,1.774-1.759A4.985,4.985,0,0,1,18,1m0-1a6,6,0,0,0-4.24,1.741L11.991,3.5l-1.756-1.74a6.03,6.03,0,0,0-8.479,0,5.907,5.907,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406A6,6,0,0,0,18,0" />
+                      </g>
+                    </g>
+                  </svg>
                 </a>
+              </p>
+              <div class="popup-date">
+                <p>
+                  23.08.08 - 23.08.20
+                </p>
+              </div>
             </div>
-            <div class="banner-area">
-                <a href="">
-                    <p>팝플리에 대해 더 알고 싶다면?</p>
-                    <span>궁금한 점이 있으시다면 FAQ나 문의하기를 이용해보세요!</span>
-                </a>
-            </div>
-            
-        </section>
-        <section class="sc-banner">
-                <div class="popupbanner-wrap">
-                    <div class="popup-top">
-                        <h3 class="title">
-                            굿즈 만족도 100%
-                            <span>8월</span>
-                        </h3>
-                        <div class="btn-more">
-                            <a href="">더보기</a>
-                        </div>
-                    </div>
-                    <div class="popup-inner">
-                        <div class="slick-slider">
-                            <div class="slick-list">
-                                <div class="slick-track">
-                                    <div class="slick-slide slick-active">
-                                        <div>
-                                            <div class="popupbanner-list">
-                                                <a href="">
-                                                    <img src="" alt="">
-                                                </a>
-                                                <div class="img-box">
-                                                    <img src="" alt="">
-                                                </div>
-                                                <div class="popup-info">
-                                                    <div class="popup-name">
-                                                        <p></p>
-                                                    </div>
-                                                    <div class="popup-location">
-                                                        <a href=""><img src="" alt=""></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+          </li>
+          <li class="popup-list">
+            <div class="popup-wrap">
+              <a class="img-box">
+                <img src="./assets/images/a9b49ce7,1145,43d5,9ea6,a741aac1e3c9 (1).jfif" alt="">
+              </a>
+              <a class="text-box">
+                <div class="popup-name">
+                  <p>다이노탱 팝업스토어</p>
                 </div>
-        </section>
-        <footer></footer>
+                <div class="popup-location">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22">
+                    <defs>
+                      <style>
+                        .cls-1 {
+                          fill: #fff;
+                        }
+                      </style>
+                    </defs>
+                    <path id="패스_263" data-name="패스 263" class="cls-1"
+                      d="M157.589,461.432l6.38,6.568,6.394-6.605a9.022,9.022,0,1,0-12.774.037m7.742-7.768a1.894,1.894,0,1,1-2.674,0,1.894,1.894,0,0,1,2.674,0"
+                      transform="translate(-154.969 -446)" />
+                  </svg>
+                  undefined undefined
+                </div>
+              </a>
+              <p>
+                <a href="" class="bookmark">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24"
+                    height="20" viewBox="0 0 24 20">
+                    <defs>
+                      <style>
+                        .cls-1 {
+                          fill: #2c2c2c;
+                        }
+
+                        .cls-2 {
+                          fill: none;
+                        }
+
+                        .cls-3 {
+                          clip-path: url(#clip-path);
+                        }
+
+                        .cls-4 {
+                          clip-path: url(#clip-path-2);
+                        }
+
+                        .cls-5 {
+                          fill: #fff;
+                        }
+                      </style>
+                      <clipPath id="clip-path">
+                        <rect id="사각형_418" data-name="사각형 418" class="cls-1" width="24" height="20" />
+                      </clipPath>
+                      <clipPath id="clip-path-2">
+                        <rect id="사각형_402" data-name="사각형 402" class="cls-2" width="24" height="20" />
+                      </clipPath>
+                    </defs>
+                    <g id="그룹_657" data-name="그룹 657" transform="translate(-331 -415)">
+                      <g id="그룹_655" data-name="그룹 655" class="cls-3" transform="translate(331 415)">
+                        <path id="패스_191" data-name="패스 191" class="cls-1"
+                          d="M22.244,1.741a6.032,6.032,0,0,0-8.479,0L11.991,3.5,10.235,1.758a6.032,6.032,0,0,0-8.479,0,5.909,5.909,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406" />
+                      </g>
+                      <g id="그룹_627" data-name="그룹 627" class="cls-4" transform="translate(331 415)">
+                        <path id="패스_180" data-name="패스 180" class="cls-5"
+                          d="M18,1a4.985,4.985,0,0,1,3.535,1.451,4.906,4.906,0,0,1,.011,6.975L12,18.613,2.46,9.454a4.907,4.907,0,0,1,0-6.985,5.03,5.03,0,0,1,7.071,0L11.287,4.21l.7.7.7-.7,1.774-1.759A4.985,4.985,0,0,1,18,1m0-1a6,6,0,0,0-4.24,1.741L11.991,3.5l-1.756-1.74a6.03,6.03,0,0,0-8.479,0,5.907,5.907,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406A6,6,0,0,0,18,0" />
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+              </p>
+              <div class="popup-date">
+                <p>
+                  23.08.08 - 23.08.20
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="popup-list">
+            <div class="popup-wrap">
+              <a class="img-box">
+                <img src="./assets/images/a9b49ce7,1145,43d5,9ea6,a741aac1e3c9 (1).jfif" alt="">
+              </a>
+              <a class="text-box">
+                <div class="popup-name">
+                  <p>다이노탱 팝업스토어</p>
+                </div>
+                <div class="popup-location">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22">
+                    <defs>
+                      <style>
+                        .cls-1 {
+                          fill: #fff;
+                        }
+                      </style>
+                    </defs>
+                    <path id="패스_263" data-name="패스 263" class="cls-1"
+                      d="M157.589,461.432l6.38,6.568,6.394-6.605a9.022,9.022,0,1,0-12.774.037m7.742-7.768a1.894,1.894,0,1,1-2.674,0,1.894,1.894,0,0,1,2.674,0"
+                      transform="translate(-154.969 -446)" />
+                  </svg>
+                  undefined undefined
+                </div>
+              </a>
+              <p>
+                <a href="" class="bookmark">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24"
+                    height="20" viewBox="0 0 24 20">
+                    <defs>
+                      <style>
+                        .cls-1 {
+                          fill: #2c2c2c;
+                        }
+
+                        .cls-2 {
+                          fill: none;
+                        }
+
+                        .cls-3 {
+                          clip-path: url(#clip-path);
+                        }
+
+                        .cls-4 {
+                          clip-path: url(#clip-path-2);
+                        }
+
+                        .cls-5 {
+                          fill: #fff;
+                        }
+                      </style>
+                      <clipPath id="clip-path">
+                        <rect id="사각형_418" data-name="사각형 418" class="cls-1" width="24" height="20" />
+                      </clipPath>
+                      <clipPath id="clip-path-2">
+                        <rect id="사각형_402" data-name="사각형 402" class="cls-2" width="24" height="20" />
+                      </clipPath>
+                    </defs>
+                    <g id="그룹_657" data-name="그룹 657" transform="translate(-331 -415)">
+                      <g id="그룹_655" data-name="그룹 655" class="cls-3" transform="translate(331 415)">
+                        <path id="패스_191" data-name="패스 191" class="cls-1"
+                          d="M22.244,1.741a6.032,6.032,0,0,0-8.479,0L11.991,3.5,10.235,1.758a6.032,6.032,0,0,0-8.479,0,5.909,5.909,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406" />
+                      </g>
+                      <g id="그룹_627" data-name="그룹 627" class="cls-4" transform="translate(331 415)">
+                        <path id="패스_180" data-name="패스 180" class="cls-5"
+                          d="M18,1a4.985,4.985,0,0,1,3.535,1.451,4.906,4.906,0,0,1,.011,6.975L12,18.613,2.46,9.454a4.907,4.907,0,0,1,0-6.985,5.03,5.03,0,0,1,7.071,0L11.287,4.21l.7.7.7-.7,1.774-1.759A4.985,4.985,0,0,1,18,1m0-1a6,6,0,0,0-4.24,1.741L11.991,3.5l-1.756-1.74a6.03,6.03,0,0,0-8.479,0,5.907,5.907,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406A6,6,0,0,0,18,0" />
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+              </p>
+              <div class="popup-date">
+                <p>
+                  23.08.08 - 23.08.20
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="popup-list">
+            <div class="popup-wrap">
+              <a class="img-box">
+                <img src="./assets/images/a9b49ce7,1145,43d5,9ea6,a741aac1e3c9 (1).jfif" alt="">
+              </a>
+              <a class="text-box">
+                <div class="popup-name">
+                  <p>다이노탱 팝업스토어</p>
+                </div>
+                <div class="popup-location">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22">
+                    <defs>
+                      <style>
+                        .cls-1 {
+                          fill: #fff;
+                        }
+                      </style>
+                    </defs>
+                    <path id="패스_263" data-name="패스 263" class="cls-1"
+                      d="M157.589,461.432l6.38,6.568,6.394-6.605a9.022,9.022,0,1,0-12.774.037m7.742-7.768a1.894,1.894,0,1,1-2.674,0,1.894,1.894,0,0,1,2.674,0"
+                      transform="translate(-154.969 -446)" />
+                  </svg>
+                  undefined undefined
+                </div>
+              </a>
+              <p>
+                <a href="" class="bookmark">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24"
+                    height="20" viewBox="0 0 24 20">
+                    <defs>
+                      <style>
+                        .cls-1 {
+                          fill: #2c2c2c;
+                        }
+
+                        .cls-2 {
+                          fill: none;
+                        }
+
+                        .cls-3 {
+                          clip-path: url(#clip-path);
+                        }
+
+                        .cls-4 {
+                          clip-path: url(#clip-path-2);
+                        }
+
+                        .cls-5 {
+                          fill: #fff;
+                        }
+                      </style>
+                      <clipPath id="clip-path">
+                        <rect id="사각형_418" data-name="사각형 418" class="cls-1" width="24" height="20" />
+                      </clipPath>
+                      <clipPath id="clip-path-2">
+                        <rect id="사각형_402" data-name="사각형 402" class="cls-2" width="24" height="20" />
+                      </clipPath>
+                    </defs>
+                    <g id="그룹_657" data-name="그룹 657" transform="translate(-331 -415)">
+                      <g id="그룹_655" data-name="그룹 655" class="cls-3" transform="translate(331 415)">
+                        <path id="패스_191" data-name="패스 191" class="cls-1"
+                          d="M22.244,1.741a6.032,6.032,0,0,0-8.479,0L11.991,3.5,10.235,1.758a6.032,6.032,0,0,0-8.479,0,5.909,5.909,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406" />
+                      </g>
+                      <g id="그룹_627" data-name="그룹 627" class="cls-4" transform="translate(331 415)">
+                        <path id="패스_180" data-name="패스 180" class="cls-5"
+                          d="M18,1a4.985,4.985,0,0,1,3.535,1.451,4.906,4.906,0,0,1,.011,6.975L12,18.613,2.46,9.454a4.907,4.907,0,0,1,0-6.985,5.03,5.03,0,0,1,7.071,0L11.287,4.21l.7.7.7-.7,1.774-1.759A4.985,4.985,0,0,1,18,1m0-1a6,6,0,0,0-4.24,1.741L11.991,3.5l-1.756-1.74a6.03,6.03,0,0,0-8.479,0,5.907,5.907,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406A6,6,0,0,0,18,0" />
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+              </p>
+              <div class="popup-date">
+                <p>
+                  23.08.08 - 23.08.20
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="popup-list">
+            <div class="popup-wrap">
+              <a class="img-box">
+                <img src="./assets/images/a9b49ce7,1145,43d5,9ea6,a741aac1e3c9 (1).jfif" alt="">
+              </a>
+              <a class="text-box">
+                <div class="popup-name">
+                  <p>다이노탱 팝업스토어</p>
+                </div>
+                <div class="popup-location">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22">
+                    <defs>
+                      <style>
+                        .cls-1 {
+                          fill: #fff;
+                        }
+                      </style>
+                    </defs>
+                    <path id="패스_263" data-name="패스 263" class="cls-1"
+                      d="M157.589,461.432l6.38,6.568,6.394-6.605a9.022,9.022,0,1,0-12.774.037m7.742-7.768a1.894,1.894,0,1,1-2.674,0,1.894,1.894,0,0,1,2.674,0"
+                      transform="translate(-154.969 -446)" />
+                  </svg>
+                  undefined undefined
+                </div>
+              </a>
+              <p>
+                <a href="" class="bookmark">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24"
+                    height="20" viewBox="0 0 24 20">
+                    <defs>
+                      <style>
+                        .cls-1 {
+                          fill: #2c2c2c;
+                        }
+
+                        .cls-2 {
+                          fill: none;
+                        }
+
+                        .cls-3 {
+                          clip-path: url(#clip-path);
+                        }
+
+                        .cls-4 {
+                          clip-path: url(#clip-path-2);
+                        }
+
+                        .cls-5 {
+                          fill: #fff;
+                        }
+                      </style>
+                      <clipPath id="clip-path">
+                        <rect id="사각형_418" data-name="사각형 418" class="cls-1" width="24" height="20" />
+                      </clipPath>
+                      <clipPath id="clip-path-2">
+                        <rect id="사각형_402" data-name="사각형 402" class="cls-2" width="24" height="20" />
+                      </clipPath>
+                    </defs>
+                    <g id="그룹_657" data-name="그룹 657" transform="translate(-331 -415)">
+                      <g id="그룹_655" data-name="그룹 655" class="cls-3" transform="translate(331 415)">
+                        <path id="패스_191" data-name="패스 191" class="cls-1"
+                          d="M22.244,1.741a6.032,6.032,0,0,0-8.479,0L11.991,3.5,10.235,1.758a6.032,6.032,0,0,0-8.479,0,5.909,5.909,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406" />
+                      </g>
+                      <g id="그룹_627" data-name="그룹 627" class="cls-4" transform="translate(331 415)">
+                        <path id="패스_180" data-name="패스 180" class="cls-5"
+                          d="M18,1a4.985,4.985,0,0,1,3.535,1.451,4.906,4.906,0,0,1,.011,6.975L12,18.613,2.46,9.454a4.907,4.907,0,0,1,0-6.985,5.03,5.03,0,0,1,7.071,0L11.287,4.21l.7.7.7-.7,1.774-1.759A4.985,4.985,0,0,1,18,1m0-1a6,6,0,0,0-4.24,1.741L11.991,3.5l-1.756-1.74a6.03,6.03,0,0,0-8.479,0,5.907,5.907,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406A6,6,0,0,0,18,0" />
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+              </p>
+              <div class="popup-date">
+                <p>
+                  23.08.08 - 23.08.20
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="popup-list">
+            <div class="popup-wrap">
+              <a class="img-box">
+                <img src="./assets/images/a9b49ce7,1145,43d5,9ea6,a741aac1e3c9 (1).jfif" alt="">
+              </a>
+              <a class="text-box">
+                <div class="popup-name">
+                  <p>다이노탱 팝업스토어</p>
+                </div>
+                <div class="popup-location">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22">
+                    <defs>
+                      <style>
+                        .cls-1 {
+                          fill: #fff;
+                        }
+                      </style>
+                    </defs>
+                    <path id="패스_263" data-name="패스 263" class="cls-1"
+                      d="M157.589,461.432l6.38,6.568,6.394-6.605a9.022,9.022,0,1,0-12.774.037m7.742-7.768a1.894,1.894,0,1,1-2.674,0,1.894,1.894,0,0,1,2.674,0"
+                      transform="translate(-154.969 -446)" />
+                  </svg>
+                  undefined undefined
+                </div>
+              </a>
+              <p>
+                <a href="" class="bookmark">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24"
+                    height="20" viewBox="0 0 24 20">
+                    <defs>
+                      <style>
+                        .cls-1 {
+                          fill: #2c2c2c;
+                        }
+
+                        .cls-2 {
+                          fill: none;
+                        }
+
+                        .cls-3 {
+                          clip-path: url(#clip-path);
+                        }
+
+                        .cls-4 {
+                          clip-path: url(#clip-path-2);
+                        }
+
+                        .cls-5 {
+                          fill: #fff;
+                        }
+                      </style>
+                      <clipPath id="clip-path">
+                        <rect id="사각형_418" data-name="사각형 418" class="cls-1" width="24" height="20" />
+                      </clipPath>
+                      <clipPath id="clip-path-2">
+                        <rect id="사각형_402" data-name="사각형 402" class="cls-2" width="24" height="20" />
+                      </clipPath>
+                    </defs>
+                    <g id="그룹_657" data-name="그룹 657" transform="translate(-331 -415)">
+                      <g id="그룹_655" data-name="그룹 655" class="cls-3" transform="translate(331 415)">
+                        <path id="패스_191" data-name="패스 191" class="cls-1"
+                          d="M22.244,1.741a6.032,6.032,0,0,0-8.479,0L11.991,3.5,10.235,1.758a6.032,6.032,0,0,0-8.479,0,5.909,5.909,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406" />
+                      </g>
+                      <g id="그룹_627" data-name="그룹 627" class="cls-4" transform="translate(331 415)">
+                        <path id="패스_180" data-name="패스 180" class="cls-5"
+                          d="M18,1a4.985,4.985,0,0,1,3.535,1.451,4.906,4.906,0,0,1,.011,6.975L12,18.613,2.46,9.454a4.907,4.907,0,0,1,0-6.985,5.03,5.03,0,0,1,7.071,0L11.287,4.21l.7.7.7-.7,1.774-1.759A4.985,4.985,0,0,1,18,1m0-1a6,6,0,0,0-4.24,1.741L11.991,3.5l-1.756-1.74a6.03,6.03,0,0,0-8.479,0,5.907,5.907,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406A6,6,0,0,0,18,0" />
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+              </p>
+              <div class="popup-date">
+                <p>
+                  23.08.08 - 23.08.20
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="popup-list">
+            <div class="popup-wrap">
+              <a class="img-box">
+                <img src="./assets/images/a9b49ce7,1145,43d5,9ea6,a741aac1e3c9 (1).jfif" alt="">
+              </a>
+              <a class="text-box">
+                <div class="popup-name">
+                  <p>다이노탱 팝업스토어</p>
+                </div>
+                <div class="popup-location">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22">
+                    <defs>
+                      <style>
+                        .cls-1 {
+                          fill: #fff;
+                        }
+                      </style>
+                    </defs>
+                    <path id="패스_263" data-name="패스 263" class="cls-1"
+                      d="M157.589,461.432l6.38,6.568,6.394-6.605a9.022,9.022,0,1,0-12.774.037m7.742-7.768a1.894,1.894,0,1,1-2.674,0,1.894,1.894,0,0,1,2.674,0"
+                      transform="translate(-154.969 -446)" />
+                  </svg>
+                  undefined undefined
+                </div>
+              </a>
+              <p>
+                <a href="" class="bookmark">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24"
+                    height="20" viewBox="0 0 24 20">
+                    <defs>
+                      <style>
+                        .cls-1 {
+                          fill: #2c2c2c;
+                        }
+
+                        .cls-2 {
+                          fill: none;
+                        }
+
+                        .cls-3 {
+                          clip-path: url(#clip-path);
+                        }
+
+                        .cls-4 {
+                          clip-path: url(#clip-path-2);
+                        }
+
+                        .cls-5 {
+                          fill: #fff;
+                        }
+                      </style>
+                      <clipPath id="clip-path">
+                        <rect id="사각형_418" data-name="사각형 418" class="cls-1" width="24" height="20" />
+                      </clipPath>
+                      <clipPath id="clip-path-2">
+                        <rect id="사각형_402" data-name="사각형 402" class="cls-2" width="24" height="20" />
+                      </clipPath>
+                    </defs>
+                    <g id="그룹_657" data-name="그룹 657" transform="translate(-331 -415)">
+                      <g id="그룹_655" data-name="그룹 655" class="cls-3" transform="translate(331 415)">
+                        <path id="패스_191" data-name="패스 191" class="cls-1"
+                          d="M22.244,1.741a6.032,6.032,0,0,0-8.479,0L11.991,3.5,10.235,1.758a6.032,6.032,0,0,0-8.479,0,5.909,5.909,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406" />
+                      </g>
+                      <g id="그룹_627" data-name="그룹 627" class="cls-4" transform="translate(331 415)">
+                        <path id="패스_180" data-name="패스 180" class="cls-5"
+                          d="M18,1a4.985,4.985,0,0,1,3.535,1.451,4.906,4.906,0,0,1,.011,6.975L12,18.613,2.46,9.454a4.907,4.907,0,0,1,0-6.985,5.03,5.03,0,0,1,7.071,0L11.287,4.21l.7.7.7-.7,1.774-1.759A4.985,4.985,0,0,1,18,1m0-1a6,6,0,0,0-4.24,1.741L11.991,3.5l-1.756-1.74a6.03,6.03,0,0,0-8.479,0,5.907,5.907,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406A6,6,0,0,0,18,0" />
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+              </p>
+              <div class="popup-date">
+                <p>
+                  23.08.08 - 23.08.20
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="popup-list">
+            <div class="popup-wrap">
+              <a class="img-box">
+                <img src="./assets/images/a9b49ce7,1145,43d5,9ea6,a741aac1e3c9 (1).jfif" alt="">
+              </a>
+              <a class="text-box">
+                <div class="popup-name">
+                  <p>다이노탱 팝업스토어</p>
+                </div>
+                <div class="popup-location">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22">
+                    <defs>
+                      <style>
+                        .cls-1 {
+                          fill: #fff;
+                        }
+                      </style>
+                    </defs>
+                    <path id="패스_263" data-name="패스 263" class="cls-1"
+                      d="M157.589,461.432l6.38,6.568,6.394-6.605a9.022,9.022,0,1,0-12.774.037m7.742-7.768a1.894,1.894,0,1,1-2.674,0,1.894,1.894,0,0,1,2.674,0"
+                      transform="translate(-154.969 -446)" />
+                  </svg>
+                  undefined undefined
+                </div>
+              </a>
+              <p>
+                <a href="" class="bookmark">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24"
+                    height="20" viewBox="0 0 24 20">
+                    <defs>
+                      <style>
+                        .cls-1 {
+                          fill: #2c2c2c;
+                        }
+
+                        .cls-2 {
+                          fill: none;
+                        }
+
+                        .cls-3 {
+                          clip-path: url(#clip-path);
+                        }
+
+                        .cls-4 {
+                          clip-path: url(#clip-path-2);
+                        }
+
+                        .cls-5 {
+                          fill: #fff;
+                        }
+                      </style>
+                      <clipPath id="clip-path">
+                        <rect id="사각형_418" data-name="사각형 418" class="cls-1" width="24" height="20" />
+                      </clipPath>
+                      <clipPath id="clip-path-2">
+                        <rect id="사각형_402" data-name="사각형 402" class="cls-2" width="24" height="20" />
+                      </clipPath>
+                    </defs>
+                    <g id="그룹_657" data-name="그룹 657" transform="translate(-331 -415)">
+                      <g id="그룹_655" data-name="그룹 655" class="cls-3" transform="translate(331 415)">
+                        <path id="패스_191" data-name="패스 191" class="cls-1"
+                          d="M22.244,1.741a6.032,6.032,0,0,0-8.479,0L11.991,3.5,10.235,1.758a6.032,6.032,0,0,0-8.479,0,5.909,5.909,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406" />
+                      </g>
+                      <g id="그룹_627" data-name="그룹 627" class="cls-4" transform="translate(331 415)">
+                        <path id="패스_180" data-name="패스 180" class="cls-5"
+                          d="M18,1a4.985,4.985,0,0,1,3.535,1.451,4.906,4.906,0,0,1,.011,6.975L12,18.613,2.46,9.454a4.907,4.907,0,0,1,0-6.985,5.03,5.03,0,0,1,7.071,0L11.287,4.21l.7.7.7-.7,1.774-1.759A4.985,4.985,0,0,1,18,1m0-1a6,6,0,0,0-4.24,1.741L11.991,3.5l-1.756-1.74a6.03,6.03,0,0,0-8.479,0,5.907,5.907,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406A6,6,0,0,0,18,0" />
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+              </p>
+              <div class="popup-date">
+                <p>
+                  23.08.08 - 23.08.20
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="popup-list">
+            <div class="popup-wrap">
+              <a class="img-box">
+                <img src="./assets/images/a9b49ce7,1145,43d5,9ea6,a741aac1e3c9 (1).jfif" alt="">
+              </a>
+              <a class="text-box">
+                <div class="popup-name">
+                  <p>다이노탱 팝업스토어</p>
+                </div>
+                <div class="popup-location">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22">
+                    <defs>
+                      <style>
+                        .cls-1 {
+                          fill: #fff;
+                        }
+                      </style>
+                    </defs>
+                    <path id="패스_263" data-name="패스 263" class="cls-1"
+                      d="M157.589,461.432l6.38,6.568,6.394-6.605a9.022,9.022,0,1,0-12.774.037m7.742-7.768a1.894,1.894,0,1,1-2.674,0,1.894,1.894,0,0,1,2.674,0"
+                      transform="translate(-154.969 -446)" />
+                  </svg>
+                  undefined undefined
+                </div>
+              </a>
+              <p>
+                <a href="" class="bookmark">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24"
+                    height="20" viewBox="0 0 24 20">
+                    <defs>
+                      <style>
+                        .cls-1 {
+                          fill: #2c2c2c;
+                        }
+
+                        .cls-2 {
+                          fill: none;
+                        }
+
+                        .cls-3 {
+                          clip-path: url(#clip-path);
+                        }
+
+                        .cls-4 {
+                          clip-path: url(#clip-path-2);
+                        }
+
+                        .cls-5 {
+                          fill: #fff;
+                        }
+                      </style>
+                      <clipPath id="clip-path">
+                        <rect id="사각형_418" data-name="사각형 418" class="cls-1" width="24" height="20" />
+                      </clipPath>
+                      <clipPath id="clip-path-2">
+                        <rect id="사각형_402" data-name="사각형 402" class="cls-2" width="24" height="20" />
+                      </clipPath>
+                    </defs>
+                    <g id="그룹_657" data-name="그룹 657" transform="translate(-331 -415)">
+                      <g id="그룹_655" data-name="그룹 655" class="cls-3" transform="translate(331 415)">
+                        <path id="패스_191" data-name="패스 191" class="cls-1"
+                          d="M22.244,1.741a6.032,6.032,0,0,0-8.479,0L11.991,3.5,10.235,1.758a6.032,6.032,0,0,0-8.479,0,5.909,5.909,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406" />
+                      </g>
+                      <g id="그룹_627" data-name="그룹 627" class="cls-4" transform="translate(331 415)">
+                        <path id="패스_180" data-name="패스 180" class="cls-5"
+                          d="M18,1a4.985,4.985,0,0,1,3.535,1.451,4.906,4.906,0,0,1,.011,6.975L12,18.613,2.46,9.454a4.907,4.907,0,0,1,0-6.985,5.03,5.03,0,0,1,7.071,0L11.287,4.21l.7.7.7-.7,1.774-1.759A4.985,4.985,0,0,1,18,1m0-1a6,6,0,0,0-4.24,1.741L11.991,3.5l-1.756-1.74a6.03,6.03,0,0,0-8.479,0,5.907,5.907,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406A6,6,0,0,0,18,0" />
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+              </p>
+              <div class="popup-date">
+                <p>
+                  23.08.08 - 23.08.20
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="popup-list">
+            <div class="popup-wrap">
+              <a class="img-box">
+                <img src="./assets/images/a9b49ce7,1145,43d5,9ea6,a741aac1e3c9 (1).jfif" alt="">
+              </a>
+              <a class="text-box">
+                <div class="popup-name">
+                  <p>다이노탱 팝업스토어</p>
+                </div>
+                <div class="popup-location">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22">
+                    <defs>
+                      <style>
+                        .cls-1 {
+                          fill: #fff;
+                        }
+                      </style>
+                    </defs>
+                    <path id="패스_263" data-name="패스 263" class="cls-1"
+                      d="M157.589,461.432l6.38,6.568,6.394-6.605a9.022,9.022,0,1,0-12.774.037m7.742-7.768a1.894,1.894,0,1,1-2.674,0,1.894,1.894,0,0,1,2.674,0"
+                      transform="translate(-154.969 -446)" />
+                  </svg>
+                  undefined undefined
+                </div>
+              </a>
+              <p>
+                <a href="" class="bookmark">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24"
+                    height="20" viewBox="0 0 24 20">
+                    <defs>
+                      <style>
+                        .cls-1 {
+                          fill: #2c2c2c;
+                        }
+
+                        .cls-2 {
+                          fill: none;
+                        }
+
+                        .cls-3 {
+                          clip-path: url(#clip-path);
+                        }
+
+                        .cls-4 {
+                          clip-path: url(#clip-path-2);
+                        }
+
+                        .cls-5 {
+                          fill: #fff;
+                        }
+                      </style>
+                      <clipPath id="clip-path">
+                        <rect id="사각형_418" data-name="사각형 418" class="cls-1" width="24" height="20" />
+                      </clipPath>
+                      <clipPath id="clip-path-2">
+                        <rect id="사각형_402" data-name="사각형 402" class="cls-2" width="24" height="20" />
+                      </clipPath>
+                    </defs>
+                    <g id="그룹_657" data-name="그룹 657" transform="translate(-331 -415)">
+                      <g id="그룹_655" data-name="그룹 655" class="cls-3" transform="translate(331 415)">
+                        <path id="패스_191" data-name="패스 191" class="cls-1"
+                          d="M22.244,1.741a6.032,6.032,0,0,0-8.479,0L11.991,3.5,10.235,1.758a6.032,6.032,0,0,0-8.479,0,5.909,5.909,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406" />
+                      </g>
+                      <g id="그룹_627" data-name="그룹 627" class="cls-4" transform="translate(331 415)">
+                        <path id="패스_180" data-name="패스 180" class="cls-5"
+                          d="M18,1a4.985,4.985,0,0,1,3.535,1.451,4.906,4.906,0,0,1,.011,6.975L12,18.613,2.46,9.454a4.907,4.907,0,0,1,0-6.985,5.03,5.03,0,0,1,7.071,0L11.287,4.21l.7.7.7-.7,1.774-1.759A4.985,4.985,0,0,1,18,1m0-1a6,6,0,0,0-4.24,1.741L11.991,3.5l-1.756-1.74a6.03,6.03,0,0,0-8.479,0,5.907,5.907,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406A6,6,0,0,0,18,0" />
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+              </p>
+              <div class="popup-date">
+                <p>
+                  23.08.08 - 23.08.20
+                </p>
+              </div>
+            </div>
+          </li>
+
+        </ul>
+        <a class="btn-box">
+          더보기
+        </a>
+      </div>
+      <div class="banner-area">
+        <a href="">
+          <p>팝플리에 대해 더 알고 싶다면?</p>
+          <span>궁금한 점이 있으시다면 FAQ나 문의하기를 이용해보세요!</span>
+        </a>
+      </div>
+
+    </section>
+    <section class="sc-banner">
+      <div class="popupbanner-wrap">
+        <div class="popup-top">
+          <h3 class="title">
+            굿즈 만족도 100%
+            <span>8월</span>
+          </h3>
+          <div class="btn-more">
+            <a href="">더보기</a>
+          </div>
+        </div>
+        <div class="popup-inner">
+          <div class="popup-slider">
+
+            <div class="popupbanner-list">
+              <p>
+                <a href="" class="bookmark">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24"
+                    height="20" viewBox="0 0 24 20">
+                    <defs>
+                      <style>
+                        .cls-1 {
+                          fill: #2c2c2c;
+                        }
+
+                        .cls-2 {
+                          fill: none;
+                        }
+
+                        .cls-3 {
+                          clip-path: url(#clip-path);
+                        }
+
+                        .cls-4 {
+                          clip-path: url(#clip-path-2);
+                        }
+
+                        .cls-5 {
+                          fill: #fff;
+                        }
+                      </style>
+                      <clipPath id="clip-path">
+                        <rect id="사각형_418" data-name="사각형 418" class="cls-1" width="24" height="20" />
+                      </clipPath>
+                      <clipPath id="clip-path-2">
+                        <rect id="사각형_402" data-name="사각형 402" class="cls-2" width="24" height="20" />
+                      </clipPath>
+                    </defs>
+                    <g id="그룹_657" data-name="그룹 657" transform="translate(-331 -415)">
+                      <g id="그룹_655" data-name="그룹 655" class="cls-3" transform="translate(331 415)">
+                        <path id="패스_191" data-name="패스 191" class="cls-1"
+                          d="M22.244,1.741a6.032,6.032,0,0,0-8.479,0L11.991,3.5,10.235,1.758a6.032,6.032,0,0,0-8.479,0,5.909,5.909,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406" />
+                      </g>
+                      <g id="그룹_627" data-name="그룹 627" class="cls-4" transform="translate(331 415)">
+                        <path id="패스_180" data-name="패스 180" class="cls-5"
+                          d="M18,1a4.985,4.985,0,0,1,3.535,1.451,4.906,4.906,0,0,1,.011,6.975L12,18.613,2.46,9.454a4.907,4.907,0,0,1,0-6.985,5.03,5.03,0,0,1,7.071,0L11.287,4.21l.7.7.7-.7,1.774-1.759A4.985,4.985,0,0,1,18,1m0-1a6,6,0,0,0-4.24,1.741L11.991,3.5l-1.756-1.74a6.03,6.03,0,0,0-8.479,0,5.907,5.907,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406A6,6,0,0,0,18,0" />
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+              </p>
+              <div class="img-box">
+                <img src="./assets/images/2306071006_4141_b_KakaoTalk_20230607_000358128.jpg" alt="">
+              </div>
+              <ul class="popup-info">
+                <li class="popup-name">
+                  <p>유어굿즈 팝업스토어</p>
+                </li>
+                <li class="popup-location">
+                  <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22">
+                      <defs>
+                        <style>
+                          .cls-1 {
+                            fill: #fff;
+                          }
+                        </style>
+                      </defs>
+                      <path id="패스_263" data-name="패스 263" class="cls-1"
+                        d="M157.589,461.432l6.38,6.568,6.394-6.605a9.022,9.022,0,1,0-12.774.037m7.742-7.768a1.894,1.894,0,1,1-2.674,0,1.894,1.894,0,0,1,2.674,0"
+                        transform="translate(-154.969 -446)" />
+                    </svg>
+                    서울 중구
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="popupbanner-list">
+              <p>
+                <a href="" class="bookmark">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24"
+                    height="20" viewBox="0 0 24 20">
+                    <defs>
+                      <style>
+                        .cls-1 {
+                          fill: #2c2c2c;
+                        }
+
+                        .cls-2 {
+                          fill: none;
+                        }
+
+                        .cls-3 {
+                          clip-path: url(#clip-path);
+                        }
+
+                        .cls-4 {
+                          clip-path: url(#clip-path-2);
+                        }
+
+                        .cls-5 {
+                          fill: #fff;
+                        }
+                      </style>
+                      <clipPath id="clip-path">
+                        <rect id="사각형_418" data-name="사각형 418" class="cls-1" width="24" height="20" />
+                      </clipPath>
+                      <clipPath id="clip-path-2">
+                        <rect id="사각형_402" data-name="사각형 402" class="cls-2" width="24" height="20" />
+                      </clipPath>
+                    </defs>
+                    <g id="그룹_657" data-name="그룹 657" transform="translate(-331 -415)">
+                      <g id="그룹_655" data-name="그룹 655" class="cls-3" transform="translate(331 415)">
+                        <path id="패스_191" data-name="패스 191" class="cls-1"
+                          d="M22.244,1.741a6.032,6.032,0,0,0-8.479,0L11.991,3.5,10.235,1.758a6.032,6.032,0,0,0-8.479,0,5.909,5.909,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406" />
+                      </g>
+                      <g id="그룹_627" data-name="그룹 627" class="cls-4" transform="translate(331 415)">
+                        <path id="패스_180" data-name="패스 180" class="cls-5"
+                          d="M18,1a4.985,4.985,0,0,1,3.535,1.451,4.906,4.906,0,0,1,.011,6.975L12,18.613,2.46,9.454a4.907,4.907,0,0,1,0-6.985,5.03,5.03,0,0,1,7.071,0L11.287,4.21l.7.7.7-.7,1.774-1.759A4.985,4.985,0,0,1,18,1m0-1a6,6,0,0,0-4.24,1.741L11.991,3.5l-1.756-1.74a6.03,6.03,0,0,0-8.479,0,5.907,5.907,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406A6,6,0,0,0,18,0" />
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+              </p>
+              <div class="img-box">
+                <img src="./assets/images/2306071006_4141_b_KakaoTalk_20230607_000358128.jpg" alt="">
+              </div>
+              <ul class="popup-info">
+                <li class="popup-name">
+                  <p>유어굿즈 팝업스토어</p>
+                </li>
+                <li class="popup-location">
+                  <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22">
+                      <defs>
+                        <style>
+                          .cls-1 {
+                            fill: #fff;
+                          }
+                        </style>
+                      </defs>
+                      <path id="패스_263" data-name="패스 263" class="cls-1"
+                        d="M157.589,461.432l6.38,6.568,6.394-6.605a9.022,9.022,0,1,0-12.774.037m7.742-7.768a1.894,1.894,0,1,1-2.674,0,1.894,1.894,0,0,1,2.674,0"
+                        transform="translate(-154.969 -446)" />
+                    </svg>
+                    서울 중구
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="popupbanner-list">
+              <p>
+                <a href="" class="bookmark">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24"
+                    height="20" viewBox="0 0 24 20">
+                    <defs>
+                      <style>
+                        .cls-1 {
+                          fill: #2c2c2c;
+                        }
+
+                        .cls-2 {
+                          fill: none;
+                        }
+
+                        .cls-3 {
+                          clip-path: url(#clip-path);
+                        }
+
+                        .cls-4 {
+                          clip-path: url(#clip-path-2);
+                        }
+
+                        .cls-5 {
+                          fill: #fff;
+                        }
+                      </style>
+                      <clipPath id="clip-path">
+                        <rect id="사각형_418" data-name="사각형 418" class="cls-1" width="24" height="20" />
+                      </clipPath>
+                      <clipPath id="clip-path-2">
+                        <rect id="사각형_402" data-name="사각형 402" class="cls-2" width="24" height="20" />
+                      </clipPath>
+                    </defs>
+                    <g id="그룹_657" data-name="그룹 657" transform="translate(-331 -415)">
+                      <g id="그룹_655" data-name="그룹 655" class="cls-3" transform="translate(331 415)">
+                        <path id="패스_191" data-name="패스 191" class="cls-1"
+                          d="M22.244,1.741a6.032,6.032,0,0,0-8.479,0L11.991,3.5,10.235,1.758a6.032,6.032,0,0,0-8.479,0,5.909,5.909,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406" />
+                      </g>
+                      <g id="그룹_627" data-name="그룹 627" class="cls-4" transform="translate(331 415)">
+                        <path id="패스_180" data-name="패스 180" class="cls-5"
+                          d="M18,1a4.985,4.985,0,0,1,3.535,1.451,4.906,4.906,0,0,1,.011,6.975L12,18.613,2.46,9.454a4.907,4.907,0,0,1,0-6.985,5.03,5.03,0,0,1,7.071,0L11.287,4.21l.7.7.7-.7,1.774-1.759A4.985,4.985,0,0,1,18,1m0-1a6,6,0,0,0-4.24,1.741L11.991,3.5l-1.756-1.74a6.03,6.03,0,0,0-8.479,0,5.907,5.907,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406A6,6,0,0,0,18,0" />
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+              </p>
+              <div class="img-box">
+                <img src="./assets/images/2306071006_4141_b_KakaoTalk_20230607_000358128.jpg" alt="">
+              </div>
+              <ul class="popup-info">
+                <li class="popup-name">
+                  <p>유어굿즈 팝업스토어</p>
+                </li>
+                <li class="popup-location">
+                  <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22">
+                      <defs>
+                        <style>
+                          .cls-1 {
+                            fill: #fff;
+                          }
+                        </style>
+                      </defs>
+                      <path id="패스_263" data-name="패스 263" class="cls-1"
+                        d="M157.589,461.432l6.38,6.568,6.394-6.605a9.022,9.022,0,1,0-12.774.037m7.742-7.768a1.894,1.894,0,1,1-2.674,0,1.894,1.894,0,0,1,2.674,0"
+                        transform="translate(-154.969 -446)" />
+                    </svg>
+                    서울 중구
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="popupbanner-list">
+              <p>
+                <a href="" class="bookmark">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24"
+                    height="20" viewBox="0 0 24 20">
+                    <defs>
+                      <style>
+                        .cls-1 {
+                          fill: #2c2c2c;
+                        }
+
+                        .cls-2 {
+                          fill: none;
+                        }
+
+                        .cls-3 {
+                          clip-path: url(#clip-path);
+                        }
+
+                        .cls-4 {
+                          clip-path: url(#clip-path-2);
+                        }
+
+                        .cls-5 {
+                          fill: #fff;
+                        }
+                      </style>
+                      <clipPath id="clip-path">
+                        <rect id="사각형_418" data-name="사각형 418" class="cls-1" width="24" height="20" />
+                      </clipPath>
+                      <clipPath id="clip-path-2">
+                        <rect id="사각형_402" data-name="사각형 402" class="cls-2" width="24" height="20" />
+                      </clipPath>
+                    </defs>
+                    <g id="그룹_657" data-name="그룹 657" transform="translate(-331 -415)">
+                      <g id="그룹_655" data-name="그룹 655" class="cls-3" transform="translate(331 415)">
+                        <path id="패스_191" data-name="패스 191" class="cls-1"
+                          d="M22.244,1.741a6.032,6.032,0,0,0-8.479,0L11.991,3.5,10.235,1.758a6.032,6.032,0,0,0-8.479,0,5.909,5.909,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406" />
+                      </g>
+                      <g id="그룹_627" data-name="그룹 627" class="cls-4" transform="translate(331 415)">
+                        <path id="패스_180" data-name="패스 180" class="cls-5"
+                          d="M18,1a4.985,4.985,0,0,1,3.535,1.451,4.906,4.906,0,0,1,.011,6.975L12,18.613,2.46,9.454a4.907,4.907,0,0,1,0-6.985,5.03,5.03,0,0,1,7.071,0L11.287,4.21l.7.7.7-.7,1.774-1.759A4.985,4.985,0,0,1,18,1m0-1a6,6,0,0,0-4.24,1.741L11.991,3.5l-1.756-1.74a6.03,6.03,0,0,0-8.479,0,5.907,5.907,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406A6,6,0,0,0,18,0" />
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+              </p>
+              <div class="img-box">
+                <img src="./assets/images/2306071006_4141_b_KakaoTalk_20230607_000358128.jpg" alt="">
+              </div>
+              <ul class="popup-info">
+                <li class="popup-name">
+                  <p>유어굿즈 팝업스토어</p>
+                </li>
+                <li class="popup-location">
+                  <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22">
+                      <defs>
+                        <style>
+                          .cls-1 {
+                            fill: #fff;
+                          }
+                        </style>
+                      </defs>
+                      <path id="패스_263" data-name="패스 263" class="cls-1"
+                        d="M157.589,461.432l6.38,6.568,6.394-6.605a9.022,9.022,0,1,0-12.774.037m7.742-7.768a1.894,1.894,0,1,1-2.674,0,1.894,1.894,0,0,1,2.674,0"
+                        transform="translate(-154.969 -446)" />
+                    </svg>
+                    서울 중구
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="popupbanner-list">
+              <p>
+                <a href="" class="bookmark">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24"
+                    height="20" viewBox="0 0 24 20">
+                    <defs>
+                      <style>
+                        .cls-1 {
+                          fill: #2c2c2c;
+                        }
+
+                        .cls-2 {
+                          fill: none;
+                        }
+
+                        .cls-3 {
+                          clip-path: url(#clip-path);
+                        }
+
+                        .cls-4 {
+                          clip-path: url(#clip-path-2);
+                        }
+
+                        .cls-5 {
+                          fill: #fff;
+                        }
+                      </style>
+                      <clipPath id="clip-path">
+                        <rect id="사각형_418" data-name="사각형 418" class="cls-1" width="24" height="20" />
+                      </clipPath>
+                      <clipPath id="clip-path-2">
+                        <rect id="사각형_402" data-name="사각형 402" class="cls-2" width="24" height="20" />
+                      </clipPath>
+                    </defs>
+                    <g id="그룹_657" data-name="그룹 657" transform="translate(-331 -415)">
+                      <g id="그룹_655" data-name="그룹 655" class="cls-3" transform="translate(331 415)">
+                        <path id="패스_191" data-name="패스 191" class="cls-1"
+                          d="M22.244,1.741a6.032,6.032,0,0,0-8.479,0L11.991,3.5,10.235,1.758a6.032,6.032,0,0,0-8.479,0,5.909,5.909,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406" />
+                      </g>
+                      <g id="그룹_627" data-name="그룹 627" class="cls-4" transform="translate(331 415)">
+                        <path id="패스_180" data-name="패스 180" class="cls-5"
+                          d="M18,1a4.985,4.985,0,0,1,3.535,1.451,4.906,4.906,0,0,1,.011,6.975L12,18.613,2.46,9.454a4.907,4.907,0,0,1,0-6.985,5.03,5.03,0,0,1,7.071,0L11.287,4.21l.7.7.7-.7,1.774-1.759A4.985,4.985,0,0,1,18,1m0-1a6,6,0,0,0-4.24,1.741L11.991,3.5l-1.756-1.74a6.03,6.03,0,0,0-8.479,0,5.907,5.907,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406A6,6,0,0,0,18,0" />
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+              </p>
+              <div class="img-box">
+                <img src="./assets/images/2306071006_4141_b_KakaoTalk_20230607_000358128.jpg" alt="">
+              </div>
+              <ul class="popup-info">
+                <li class="popup-name">
+                  <p>유어굿즈 팝업스토어</p>
+                </li>
+                <li class="popup-location">
+                  <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22">
+                      <defs>
+                        <style>
+                          .cls-1 {
+                            fill: #fff;
+                          }
+                        </style>
+                      </defs>
+                      <path id="패스_263" data-name="패스 263" class="cls-1"
+                        d="M157.589,461.432l6.38,6.568,6.394-6.605a9.022,9.022,0,1,0-12.774.037m7.742-7.768a1.894,1.894,0,1,1-2.674,0,1.894,1.894,0,0,1,2.674,0"
+                        transform="translate(-154.969 -446)" />
+                    </svg>
+                    서울 중구
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sc-banner">
+      <div class="popupbanner-wrap">
+        <div class="popup-top">
+          <h3 class="title">
+            체험하는 팝업스토어
+            <span>8월</span>
+          </h3>
+          <div class="btn-more">
+            <a href="">더보기</a>
+          </div>
+        </div>
+        <div class="popup-inner">
+          <div class="popup-slider">
+
+            <div class="popupbanner-list">
+              <p>
+                <a href="" class="bookmark">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24"
+                    height="20" viewBox="0 0 24 20">
+                    <defs>
+                      <style>
+                        .cls-1 {
+                          fill: #2c2c2c;
+                        }
+
+                        .cls-2 {
+                          fill: none;
+                        }
+
+                        .cls-3 {
+                          clip-path: url(#clip-path);
+                        }
+
+                        .cls-4 {
+                          clip-path: url(#clip-path-2);
+                        }
+
+                        .cls-5 {
+                          fill: #fff;
+                        }
+                      </style>
+                      <clipPath id="clip-path">
+                        <rect id="사각형_418" data-name="사각형 418" class="cls-1" width="24" height="20" />
+                      </clipPath>
+                      <clipPath id="clip-path-2">
+                        <rect id="사각형_402" data-name="사각형 402" class="cls-2" width="24" height="20" />
+                      </clipPath>
+                    </defs>
+                    <g id="그룹_657" data-name="그룹 657" transform="translate(-331 -415)">
+                      <g id="그룹_655" data-name="그룹 655" class="cls-3" transform="translate(331 415)">
+                        <path id="패스_191" data-name="패스 191" class="cls-1"
+                          d="M22.244,1.741a6.032,6.032,0,0,0-8.479,0L11.991,3.5,10.235,1.758a6.032,6.032,0,0,0-8.479,0,5.909,5.909,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406" />
+                      </g>
+                      <g id="그룹_627" data-name="그룹 627" class="cls-4" transform="translate(331 415)">
+                        <path id="패스_180" data-name="패스 180" class="cls-5"
+                          d="M18,1a4.985,4.985,0,0,1,3.535,1.451,4.906,4.906,0,0,1,.011,6.975L12,18.613,2.46,9.454a4.907,4.907,0,0,1,0-6.985,5.03,5.03,0,0,1,7.071,0L11.287,4.21l.7.7.7-.7,1.774-1.759A4.985,4.985,0,0,1,18,1m0-1a6,6,0,0,0-4.24,1.741L11.991,3.5l-1.756-1.74a6.03,6.03,0,0,0-8.479,0,5.907,5.907,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406A6,6,0,0,0,18,0" />
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+              </p>
+              <div class="img-box">
+                <img src="./assets/images/2306071006_4141_b_KakaoTalk_20230607_000358128.jpg" alt="">
+              </div>
+              <ul class="popup-info">
+                <li class="popup-name">
+                  <p>유어굿즈 팝업스토어</p>
+                </li>
+                <li class="popup-location">
+                  <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22">
+                      <defs>
+                        <style>
+                          .cls-1 {
+                            fill: #fff;
+                          }
+                        </style>
+                      </defs>
+                      <path id="패스_263" data-name="패스 263" class="cls-1"
+                        d="M157.589,461.432l6.38,6.568,6.394-6.605a9.022,9.022,0,1,0-12.774.037m7.742-7.768a1.894,1.894,0,1,1-2.674,0,1.894,1.894,0,0,1,2.674,0"
+                        transform="translate(-154.969 -446)" />
+                    </svg>
+                    서울 중구
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="popupbanner-list">
+              <p>
+                <a href="" class="bookmark">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24"
+                    height="20" viewBox="0 0 24 20">
+                    <defs>
+                      <style>
+                        .cls-1 {
+                          fill: #2c2c2c;
+                        }
+
+                        .cls-2 {
+                          fill: none;
+                        }
+
+                        .cls-3 {
+                          clip-path: url(#clip-path);
+                        }
+
+                        .cls-4 {
+                          clip-path: url(#clip-path-2);
+                        }
+
+                        .cls-5 {
+                          fill: #fff;
+                        }
+                      </style>
+                      <clipPath id="clip-path">
+                        <rect id="사각형_418" data-name="사각형 418" class="cls-1" width="24" height="20" />
+                      </clipPath>
+                      <clipPath id="clip-path-2">
+                        <rect id="사각형_402" data-name="사각형 402" class="cls-2" width="24" height="20" />
+                      </clipPath>
+                    </defs>
+                    <g id="그룹_657" data-name="그룹 657" transform="translate(-331 -415)">
+                      <g id="그룹_655" data-name="그룹 655" class="cls-3" transform="translate(331 415)">
+                        <path id="패스_191" data-name="패스 191" class="cls-1"
+                          d="M22.244,1.741a6.032,6.032,0,0,0-8.479,0L11.991,3.5,10.235,1.758a6.032,6.032,0,0,0-8.479,0,5.909,5.909,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406" />
+                      </g>
+                      <g id="그룹_627" data-name="그룹 627" class="cls-4" transform="translate(331 415)">
+                        <path id="패스_180" data-name="패스 180" class="cls-5"
+                          d="M18,1a4.985,4.985,0,0,1,3.535,1.451,4.906,4.906,0,0,1,.011,6.975L12,18.613,2.46,9.454a4.907,4.907,0,0,1,0-6.985,5.03,5.03,0,0,1,7.071,0L11.287,4.21l.7.7.7-.7,1.774-1.759A4.985,4.985,0,0,1,18,1m0-1a6,6,0,0,0-4.24,1.741L11.991,3.5l-1.756-1.74a6.03,6.03,0,0,0-8.479,0,5.907,5.907,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406A6,6,0,0,0,18,0" />
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+              </p>
+              <div class="img-box">
+                <img src="./assets/images/2306071006_4141_b_KakaoTalk_20230607_000358128.jpg" alt="">
+              </div>
+              <ul class="popup-info">
+                <li class="popup-name">
+                  <p>유어굿즈 팝업스토어</p>
+                </li>
+                <li class="popup-location">
+                  <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22">
+                      <defs>
+                        <style>
+                          .cls-1 {
+                            fill: #fff;
+                          }
+                        </style>
+                      </defs>
+                      <path id="패스_263" data-name="패스 263" class="cls-1"
+                        d="M157.589,461.432l6.38,6.568,6.394-6.605a9.022,9.022,0,1,0-12.774.037m7.742-7.768a1.894,1.894,0,1,1-2.674,0,1.894,1.894,0,0,1,2.674,0"
+                        transform="translate(-154.969 -446)" />
+                    </svg>
+                    서울 중구
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="popupbanner-list">
+              <p>
+                <a href="" class="bookmark">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24"
+                    height="20" viewBox="0 0 24 20">
+                    <defs>
+                      <style>
+                        .cls-1 {
+                          fill: #2c2c2c;
+                        }
+
+                        .cls-2 {
+                          fill: none;
+                        }
+
+                        .cls-3 {
+                          clip-path: url(#clip-path);
+                        }
+
+                        .cls-4 {
+                          clip-path: url(#clip-path-2);
+                        }
+
+                        .cls-5 {
+                          fill: #fff;
+                        }
+                      </style>
+                      <clipPath id="clip-path">
+                        <rect id="사각형_418" data-name="사각형 418" class="cls-1" width="24" height="20" />
+                      </clipPath>
+                      <clipPath id="clip-path-2">
+                        <rect id="사각형_402" data-name="사각형 402" class="cls-2" width="24" height="20" />
+                      </clipPath>
+                    </defs>
+                    <g id="그룹_657" data-name="그룹 657" transform="translate(-331 -415)">
+                      <g id="그룹_655" data-name="그룹 655" class="cls-3" transform="translate(331 415)">
+                        <path id="패스_191" data-name="패스 191" class="cls-1"
+                          d="M22.244,1.741a6.032,6.032,0,0,0-8.479,0L11.991,3.5,10.235,1.758a6.032,6.032,0,0,0-8.479,0,5.909,5.909,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406" />
+                      </g>
+                      <g id="그룹_627" data-name="그룹 627" class="cls-4" transform="translate(331 415)">
+                        <path id="패스_180" data-name="패스 180" class="cls-5"
+                          d="M18,1a4.985,4.985,0,0,1,3.535,1.451,4.906,4.906,0,0,1,.011,6.975L12,18.613,2.46,9.454a4.907,4.907,0,0,1,0-6.985,5.03,5.03,0,0,1,7.071,0L11.287,4.21l.7.7.7-.7,1.774-1.759A4.985,4.985,0,0,1,18,1m0-1a6,6,0,0,0-4.24,1.741L11.991,3.5l-1.756-1.74a6.03,6.03,0,0,0-8.479,0,5.907,5.907,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406A6,6,0,0,0,18,0" />
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+              </p>
+              <div class="img-box">
+                <img src="./assets/images/2306071006_4141_b_KakaoTalk_20230607_000358128.jpg" alt="">
+              </div>
+              <ul class="popup-info">
+                <li class="popup-name">
+                  <p>유어굿즈 팝업스토어</p>
+                </li>
+                <li class="popup-location">
+                  <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22">
+                      <defs>
+                        <style>
+                          .cls-1 {
+                            fill: #fff;
+                          }
+                        </style>
+                      </defs>
+                      <path id="패스_263" data-name="패스 263" class="cls-1"
+                        d="M157.589,461.432l6.38,6.568,6.394-6.605a9.022,9.022,0,1,0-12.774.037m7.742-7.768a1.894,1.894,0,1,1-2.674,0,1.894,1.894,0,0,1,2.674,0"
+                        transform="translate(-154.969 -446)" />
+                    </svg>
+                    서울 중구
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="popupbanner-list">
+              <p>
+                <a href="" class="bookmark">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24"
+                    height="20" viewBox="0 0 24 20">
+                    <defs>
+                      <style>
+                        .cls-1 {
+                          fill: #2c2c2c;
+                        }
+
+                        .cls-2 {
+                          fill: none;
+                        }
+
+                        .cls-3 {
+                          clip-path: url(#clip-path);
+                        }
+
+                        .cls-4 {
+                          clip-path: url(#clip-path-2);
+                        }
+
+                        .cls-5 {
+                          fill: #fff;
+                        }
+                      </style>
+                      <clipPath id="clip-path">
+                        <rect id="사각형_418" data-name="사각형 418" class="cls-1" width="24" height="20" />
+                      </clipPath>
+                      <clipPath id="clip-path-2">
+                        <rect id="사각형_402" data-name="사각형 402" class="cls-2" width="24" height="20" />
+                      </clipPath>
+                    </defs>
+                    <g id="그룹_657" data-name="그룹 657" transform="translate(-331 -415)">
+                      <g id="그룹_655" data-name="그룹 655" class="cls-3" transform="translate(331 415)">
+                        <path id="패스_191" data-name="패스 191" class="cls-1"
+                          d="M22.244,1.741a6.032,6.032,0,0,0-8.479,0L11.991,3.5,10.235,1.758a6.032,6.032,0,0,0-8.479,0,5.909,5.909,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406" />
+                      </g>
+                      <g id="그룹_627" data-name="그룹 627" class="cls-4" transform="translate(331 415)">
+                        <path id="패스_180" data-name="패스 180" class="cls-5"
+                          d="M18,1a4.985,4.985,0,0,1,3.535,1.451,4.906,4.906,0,0,1,.011,6.975L12,18.613,2.46,9.454a4.907,4.907,0,0,1,0-6.985,5.03,5.03,0,0,1,7.071,0L11.287,4.21l.7.7.7-.7,1.774-1.759A4.985,4.985,0,0,1,18,1m0-1a6,6,0,0,0-4.24,1.741L11.991,3.5l-1.756-1.74a6.03,6.03,0,0,0-8.479,0,5.907,5.907,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406A6,6,0,0,0,18,0" />
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+              </p>
+              <div class="img-box">
+                <img src="./assets/images/2306071006_4141_b_KakaoTalk_20230607_000358128.jpg" alt="">
+              </div>
+              <ul class="popup-info">
+                <li class="popup-name">
+                  <p>유어굿즈 팝업스토어</p>
+                </li>
+                <li class="popup-location">
+                  <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22">
+                      <defs>
+                        <style>
+                          .cls-1 {
+                            fill: #fff;
+                          }
+                        </style>
+                      </defs>
+                      <path id="패스_263" data-name="패스 263" class="cls-1"
+                        d="M157.589,461.432l6.38,6.568,6.394-6.605a9.022,9.022,0,1,0-12.774.037m7.742-7.768a1.894,1.894,0,1,1-2.674,0,1.894,1.894,0,0,1,2.674,0"
+                        transform="translate(-154.969 -446)" />
+                    </svg>
+                    서울 중구
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="popupbanner-list">
+              <p>
+                <a href="" class="bookmark">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24"
+                    height="20" viewBox="0 0 24 20">
+                    <defs>
+                      <style>
+                        .cls-1 {
+                          fill: #2c2c2c;
+                        }
+
+                        .cls-2 {
+                          fill: none;
+                        }
+
+                        .cls-3 {
+                          clip-path: url(#clip-path);
+                        }
+
+                        .cls-4 {
+                          clip-path: url(#clip-path-2);
+                        }
+
+                        .cls-5 {
+                          fill: #fff;
+                        }
+                      </style>
+                      <clipPath id="clip-path">
+                        <rect id="사각형_418" data-name="사각형 418" class="cls-1" width="24" height="20" />
+                      </clipPath>
+                      <clipPath id="clip-path-2">
+                        <rect id="사각형_402" data-name="사각형 402" class="cls-2" width="24" height="20" />
+                      </clipPath>
+                    </defs>
+                    <g id="그룹_657" data-name="그룹 657" transform="translate(-331 -415)">
+                      <g id="그룹_655" data-name="그룹 655" class="cls-3" transform="translate(331 415)">
+                        <path id="패스_191" data-name="패스 191" class="cls-1"
+                          d="M22.244,1.741a6.032,6.032,0,0,0-8.479,0L11.991,3.5,10.235,1.758a6.032,6.032,0,0,0-8.479,0,5.909,5.909,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406" />
+                      </g>
+                      <g id="그룹_627" data-name="그룹 627" class="cls-4" transform="translate(331 415)">
+                        <path id="패스_180" data-name="패스 180" class="cls-5"
+                          d="M18,1a4.985,4.985,0,0,1,3.535,1.451,4.906,4.906,0,0,1,.011,6.975L12,18.613,2.46,9.454a4.907,4.907,0,0,1,0-6.985,5.03,5.03,0,0,1,7.071,0L11.287,4.21l.7.7.7-.7,1.774-1.759A4.985,4.985,0,0,1,18,1m0-1a6,6,0,0,0-4.24,1.741L11.991,3.5l-1.756-1.74a6.03,6.03,0,0,0-8.479,0,5.907,5.907,0,0,0,0,8.406L12,20l10.244-9.853a5.909,5.909,0,0,0,0-8.406A6,6,0,0,0,18,0" />
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+              </p>
+              <div class="img-box">
+                <img src="./assets/images/2306071006_4141_b_KakaoTalk_20230607_000358128.jpg" alt="">
+              </div>
+              <ul class="popup-info">
+                <li class="popup-name">
+                  <p>유어굿즈 팝업스토어</p>
+                </li>
+                <li class="popup-location">
+                  <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22">
+                      <defs>
+                        <style>
+                          .cls-1 {
+                            fill: #fff;
+                          }
+                        </style>
+                      </defs>
+                      <path id="패스_263" data-name="패스 263" class="cls-1"
+                        d="M157.589,461.432l6.38,6.568,6.394-6.605a9.022,9.022,0,1,0-12.774.037m7.742-7.768a1.894,1.894,0,1,1-2.674,0,1.894,1.894,0,0,1,2.674,0"
+                        transform="translate(-154.969 -446)" />
+                    </svg>
+                    서울 중구
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-top">
+        <ul class="f-menu-list">
+          <li class="f-menu-item"><a href="">서비스 이용 약관</a></li>
+          <li class="f-menu-item"><a href="">개인정보 처리방침</a></li>
+          <li class="f-menu-item"><a href="">고객센터</a></li>
+        </ul>
+      </div>
+      <div class="footer-btm">
+        <address class="addr-area">
+          <p class="addr-box">(주)이너스커뮤니티</p>
+          <p class="addr-box">주소: 08502 서울 금천구 가산디지털1로 186</p>
+          <p class="addr-box">대표전화(02)519-1231 FAX(02)519-1292</p>
+          <p class="addr-box">ad@inuscomm.co.kr</p>
+          <small class="copyright">Copyright 2023. Inuscommunity Co.,Ltd. All rights reserved</small>
+        </address>
+        <ul class="f-sns">
+          <li class="kakaotalk">
+            <img src="./assets/images/kakao-icon.9014f8927eaadcb53be3c941ac1edf8b.svg" alt="">
+            <a href="">카카오톡 @popply</a>
+          </li>
+          <li class="instagram">
+            <img src="./assets/images/insta.9c618eb3540cf9609159.png" alt="">
+            <a href="">인스타그램 @popply_official</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-support">
+        <img src="./assets/images/gd-mark.1c799a2b243a3d97a136.png" alt="">
+      </div>
+    </footer>
+  </div>
+  <div class="Navigation-btn">
+    <div class="btm-inner">
+      <a href=""><img src="./assets/images/navbar-1.505ed78b890f3e444980568f3734bfec.svg" alt=""></a>
+      <a href=""><img src="./assets/images/navbar-2.706b3b32ed1d0106d8cd594ebee95b6f.svg" alt=""></a>
+      <a href=""><img src="./assets/images/navbar-3.d37e26be7e040750673ab5f4dc3f2ce3.svg" alt=""></a>
+      <a href=""><img src="./assets/images/navbar-4.3b89693c0126dbce8ffa4bb0f7a15359.svg" alt=""></a>
+      <a href=""><img src="./assets/images/navbar-5.dd3935f3566ac36c34a6e119be7b1c3a.svg" alt=""></a>
     </div>
+  </div>
 
 
 
 
-    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
-    <script src="./assets/js/slick.min.js"></script>
-    <script src="./assets/js/script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+  <script src="./assets/js/slick.min.js"></script>
+  <script src="./assets/js/script.js"></script>
 </body>
 
 </html>

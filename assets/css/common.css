@@ -28,14 +28,21 @@ h3 {
     font-weight: bold;
 }
 
-.slide-content {
-    width: 100%;
-    height: auto;
-    position: relative;
-    
+
+
+.slide-item {
+    width: auto; /* 슬라이드 아이템 하나의 너비를 50%로 설정하여 2개가 한 줄에 표시되도록 함 */
+    box-sizing: border-box; /* 너비에 여백과 경계선을 포함 */
+    float: left; /* 슬라이드 아이템을 좌측으로 배치 */
 }
 
-.slide-content .slide-img {
+
+
+.slickpopup-list {
+    width: 960px;
+}
+
+.slide-img {
     width: 100%;
     height: 100%;
     position: relative;
@@ -44,7 +51,7 @@ h3 {
     cursor: pointer;
 }
 
-.slide-content .slide-img img {
+.slide-img img {
     width: 100%;
     height: 480px;
     object-fit: cover;
@@ -93,4 +100,106 @@ h3 {
 .slide-content .slide-text .slide-loc > svg {
     display: block;
     width: 10px;    
+}
+
+.bookmark {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 0 10px 10px;
+    position: absolute;
+    height: fit-content;
+    z-index: 10;
+}
+
+.bookmark > svg  {
+    display: flex;
+}
+
+/* 배너리스트 */
+
+.popupbanner-list {
+    display: inline-block;
+    position: relative;
+}
+
+.popupbanner-list .img-box  {
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    width: 260px;
+    height: 260px;
+}
+
+.popupbanner-list .img-box img {
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.popupbanner-list .img-box::after {
+    background: url(../images/bgopacity.png);
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.8;
+    z-index: 1;
+    width: 260px;
+    height: 260px;
+}
+
+.popup-info {
+    position: absolute;
+    left: 10px;
+    bottom: 20px;
+    z-index: 10;
+}
+
+.popup-info .popup-name {
+    padding-bottom: 5px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.popup-info .popup-name p {
+    word-break: break-all;
+}
+
+.popup-info .popup-location {
+    padding-bottom: 5px;
+    font-size: 12px;
+    opacity: 0.6;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 3px;
+    color: #fff;
+}
+
+.popup-info .popup-location > svg {
+    display: block;
+    width: 10px;
+}
+
+.Navigation-btn {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    z-index: 100;
+    width: 100%;
+    background: #2c2c2c;
+    bottom: 0;
+    color: #fff;
+}
+
+.Navigation-btn .btm-inner {
+    display: flex;
+    width: 960px;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
